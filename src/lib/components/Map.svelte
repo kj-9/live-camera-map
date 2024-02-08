@@ -1,30 +1,26 @@
 <script lang="ts">
-    import 'maplibre-gl/dist/maplibre-gl.css';
+	import 'maplibre-gl/dist/maplibre-gl.css';
 	import { onDestroy, setContext } from 'svelte';
 	import { Map, NavigationControl, GeolocateControl, FullscreenControl } from '$lib/maplibreGL';
 
-    import layers from 'protomaps-themes-base';
-    //import { MapPin } from 'lucide-svelte';
+	import layers from 'protomaps-themes-base';
+	//import { MapPin } from 'lucide-svelte';
 
-
-    const protomapsURL = `https://api.protomaps.com/tiles/v3/{z}/{x}/{y}.pbf?key=${
-		"23b043bfcb8e65d8"
-	}`;
+	const protomapsURL = `https://api.protomaps.com/tiles/v3/{z}/{x}/{y}.pbf?key=${'23b043bfcb8e65d8'}`;
 
 	//let container;
 	let map;
-    const key = {}
+	const key = {};
 
 	setContext(key, {
 		getMap: () => map
 	});
 
 	function loadMap(container: HTMLDivElement) {
-
 		map = new Map({
 			container,
 			maxZoom: 15.9, // for current protomap api
-			localIdeographFontFamily : 'Roboto',
+			localIdeographFontFamily: 'Roboto',
 			style: {
 				version: 8,
 				glyphs: 'https://cdn.protomaps.com/fonts/pbf/{fontstack}/{range}.pbf',
@@ -42,7 +38,7 @@
 			}
 		});
 
-        map.addControl(
+		map.addControl(
 			new NavigationControl({
 				visualizePitch: true
 			})
@@ -59,19 +55,17 @@
 				showUserLocation: true
 			})
 		);
-
 	}
 
-    /*
+	/*
 	onDestroy(() => {
 		if (map) map.remove();
 	});
     */
 </script>
 
-
 <div use:loadMap>
-	<slot/>
+	<slot />
 </div>
 
 <style>
