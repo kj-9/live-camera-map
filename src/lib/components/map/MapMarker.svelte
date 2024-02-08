@@ -1,8 +1,9 @@
 <script>
-	import { getContext } from 'svelte';
+	import { contextKey } from '$lib/components/map/Map.svelte';
 	import { Popup, Marker } from '$lib/maplibreGL';
+	import { getContext } from 'svelte';
 
-	const { getMap } = getContext('map');
+	const { getMap } = getContext(contextKey);
 	const map = getMap();
 
 	export let lat;

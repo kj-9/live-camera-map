@@ -1,3 +1,7 @@
+<script context="module" lang="ts">
+	export const contextKey = 'MAP';
+</script>
+
 <script lang="ts">
 	import 'maplibre-gl/dist/maplibre-gl.css';
 	import { onDestroy, setContext } from 'svelte';
@@ -10,13 +14,12 @@
 	} from '$lib/maplibreGL';
 
 	import layers from 'protomaps-themes-base';
-
 	const protomapsURL = `https://api.protomaps.com/tiles/v3/{z}/{x}/{y}.pbf?key=${'23b043bfcb8e65d8'}`;
 
 	//let container;
 	let map;
 
-	setContext('map', {
+	setContext(contextKey, {
 		getMap: () => map
 	});
 
