@@ -10,16 +10,13 @@
 	} from '$lib/maplibreGL';
 
 	import layers from 'protomaps-themes-base';
-	import { MapPin } from 'lucide-svelte';
-	//import { MapPin } from 'lucide-svelte';
 
 	const protomapsURL = `https://api.protomaps.com/tiles/v3/{z}/{x}/{y}.pbf?key=${'23b043bfcb8e65d8'}`;
 
 	//let container;
 	let map;
-	const key = {};
 
-	setContext(key, {
+	setContext('map', {
 		getMap: () => map
 	});
 
@@ -40,7 +37,7 @@
 					}
 				},
 				layers: layers('protomaps', 'light'),
-				center: [130.398, 33.591],
+				center: [139.766, 35.681],
 				zoom: 13
 			}
 		});
@@ -72,7 +69,9 @@
 </script>
 
 <div use:loadMap>
-	<slot />
+	{#if map}
+		<slot />
+	{/if}
 </div>
 
 <style>

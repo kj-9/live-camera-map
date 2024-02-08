@@ -6,5 +6,6 @@ export const {
 	NavigationControl,
 	GeolocateControl,
 	FullscreenControl,
-	AttributionControl
+	AttributionControl,
+	Marker
 } = maplibreGL;
