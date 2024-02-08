@@ -1,9 +1,16 @@
 <script lang="ts">
 	import 'maplibre-gl/dist/maplibre-gl.css';
 	import { onDestroy, setContext } from 'svelte';
-	import { Map, NavigationControl, GeolocateControl, FullscreenControl } from '$lib/maplibreGL';
+	import {
+		Map,
+		NavigationControl,
+		GeolocateControl,
+		FullscreenControl,
+		AttributionControl
+	} from '$lib/maplibreGL';
 
 	import layers from 'protomaps-themes-base';
+	import { MapPin } from 'lucide-svelte';
 	//import { MapPin } from 'lucide-svelte';
 
 	const protomapsURL = `https://api.protomaps.com/tiles/v3/{z}/{x}/{y}.pbf?key=${'23b043bfcb8e65d8'}`;
@@ -20,7 +27,7 @@
 		map = new Map({
 			container,
 			maxZoom: 15.9, // for current protomap api
-			localIdeographFontFamily: 'Roboto',
+			attributionControl: false,
 			style: {
 				version: 8,
 				glyphs: 'https://cdn.protomaps.com/fonts/pbf/{fontstack}/{range}.pbf',
@@ -37,6 +44,8 @@
 				zoom: 13
 			}
 		});
+
+		map.addControl(new AttributionControl({}), 'bottom-left');
 
 		map.addControl(
 			new NavigationControl({
@@ -57,11 +66,9 @@
 		);
 	}
 
-	/*
 	onDestroy(() => {
 		if (map) map.remove();
 	});
-    */
 </script>
 
 <div use:loadMap>

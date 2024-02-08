@@ -5,13 +5,7 @@
 	import { addPagination, addSortBy, addTableFilter } from 'svelte-headless-table/plugins';
 	import { Input } from '$lib/components/ui/input';
 
-	type Payment = {
-		id: string;
-		amount: number;
-		status: 'pending' | 'processing' | 'success' | 'failed';
-		email: string;
-	};
-	const _data: Payment[] = [
+	const _data = [
 		{
 			id: '728ed52f',
 			amount: 100,
@@ -30,7 +24,7 @@
 	const data = [];
 
 	// duplicate data to 100 rows
-	for (let i = 0; i < 50; i++) {
+	for (let i = 0; i < 5; i++) {
 		data.push(..._data);
 	}
 
@@ -66,14 +60,16 @@
 		table.createViewModel(columns);
 
 	const { filterValue } = pluginStates.filter;
+
+	let height = '60dvh';
 </script>
 
 <div class="flex items-center py-4">
 	<Input class="max-w-sm" placeholder="Filter emails..." type="text" bind:value={$filterValue} />
 </div>
 <div class="rounded-md border bg-white">
-	<Table.Root {...$tableAttrs} height={'500px'}>
-		<Table.Header class="sticky bg-white" style="top:0;border-spacing:0;">
+	<Table.Root {height} {...$tableAttrs}>
+		<Table.Header class="sticky top-0 border-spacing-0 bg-white">
 			{#each $headerRows as headerRow}
 				<Subscribe rowAttrs={headerRow.attrs()}>
 					<Table.Row>
