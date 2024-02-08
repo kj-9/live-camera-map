@@ -77,6 +77,6 @@
 <style>
 	div {
 		width: 100vw;
-		height: 100vh;
+		height: 100dvh;
 	}
 </style>

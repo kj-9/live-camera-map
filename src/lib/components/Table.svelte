@@ -1,32 +1,16 @@
 <script lang="ts">
 	import { createTable, Render, Subscribe } from 'svelte-headless-table';
 	import { readable } from 'svelte/store';
+	import { getContext } from 'svelte';
+
 	import * as Table from '$lib/components/ui/table';
-	import { addPagination, addSortBy, addTableFilter } from 'svelte-headless-table/plugins';
+	import { addTableFilter } from 'svelte-headless-table/plugins';
 	import { Input } from '$lib/components/ui/input';
 
-	const _data = [
-		{
-			id: '728ed52f',
-			amount: 100,
-			status: 'pending',
-			email: 'm@example.com'
-		},
-		{
-			id: '489e1d42',
-			amount: 125,
-			status: 'processing',
-			email: 'example@gmail.com'
-		}
-		// ...
-	];
+	import data from '../../data/livecams.json';
 
-	const data = [];
-
-	// duplicate data to 100 rows
-	for (let i = 0; i < 10; i++) {
-		data.push(..._data);
-	}
+	const { getMap } = getContext('map');
+	const map = getMap();
 
 	const table = createTable(readable(data), {
 		filter: addTableFilter({
@@ -35,24 +19,12 @@
 	});
 	const columns = table.createColumns([
 		table.column({
-			accessor: 'id',
-			header: 'ID'
+			accessor: ({ name }) => name.ja,
+			header: 'Name'
 		}),
 		table.column({
-			accessor: 'status',
-			header: 'Status'
-		}),
-		table.column({
-			accessor: 'email',
-			header: 'Email'
-		}),
-		table.column({
-			accessor: 'amount',
-			header: 'Amount'
-		}),
-		table.column({
-			accessor: ({ id }) => id,
-			header: ''
+			accessor: 'keyword',
+			header: 'Keyword'
 		})
 	]);
 
@@ -60,6 +32,21 @@
 		table.createViewModel(columns);
 
 	const { filterValue } = pluginStates.filter;
+
+	function flyTo(center) {
+		const [lng, lat] = center;
+
+		map.flyTo({
+			speed: 1,
+			curve: 1,
+			easing(t) {
+				return t;
+			},
+			essential: true,
+			center: [lng, lat],
+			zoom: 15
+		});
+	}
 
 	let height = '60dvh';
 	let placeholder = 'Search...';
@@ -88,7 +75,7 @@
 		<Table.Body {...$tableBodyAttrs}>
 			{#each $pageRows as row (row.id)}
 				<Subscribe rowAttrs={row.attrs()} let:rowAttrs>
-					<Table.Row {...rowAttrs}>
+					<Table.Row on:click={() => flyTo(row.original.center)} {...rowAttrs}>
 						{#each row.cells as cell (cell.id)}
 							<Subscribe attrs={cell.attrs()} let:attrs>
 								<Table.Cell {...attrs}>
