@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  bits-ui:
+    specifier: ^0.17.0
+    version: 0.17.0(svelte@4.2.10)
   clsx:
     specifier: ^2.1.0
     version: 2.1.0
@@ -506,6 +509,20 @@ packages:
 
   /@melt-ui/svelte@0.68.0(svelte@4.2.10):
     resolution: {integrity: sha512-/QvA98hnYEodZtHJ71+ocum/WWp30hVNt3F8uiZKnNYwZDaiQYjlyR9AaGKYcZLCe6R68op1mfCzc0kTzJilyA==}
+    peerDependencies:
+      svelte: '>=3 <5'
+    dependencies:
+      '@floating-ui/core': 1.6.0
+      '@floating-ui/dom': 1.6.1
+      '@internationalized/date': 3.5.1
+      dequal: 2.0.3
+      focus-trap: 7.5.4
+      nanoid: 5.0.5
+      svelte: 4.2.10
+    dev: false
+
+  /@melt-ui/svelte@0.71.2(svelte@4.2.10):
+    resolution: {integrity: sha512-GDUErhAphEoEOLpcBjQ84BgzRR6M3344fQE4QYFffwT7aedWak7CvNsECgeig1Y5xvfDmeEaFnGlOQXIBucJYw==}
     peerDependencies:
       svelte: '>=3 <5'
     dependencies:
@@ -1099,6 +1116,17 @@ packages:
     dependencies:
       '@internationalized/date': 3.5.1
       '@melt-ui/svelte': 0.68.0(svelte@4.2.10)
+      nanoid: 5.0.5
+      svelte: 4.2.10
+    dev: false
+
+  /bits-ui@0.17.0(svelte@4.2.10):
+    resolution: {integrity: sha512-K73jjco1qPmvGXMQtTkZG6K36UmNrPR21u+C1jzoRWmF3NnUfDP4hPJnAci0LosUycfvOxtaHB1M4awvLvQXyQ==}
+    peerDependencies:
+      svelte: ^4.0.0
+    dependencies:
+      '@internationalized/date': 3.5.1
+      '@melt-ui/svelte': 0.71.2(svelte@4.2.10)
       nanoid: 5.0.5
       svelte: 4.2.10
     dev: false

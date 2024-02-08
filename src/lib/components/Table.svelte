@@ -24,7 +24,7 @@
 	const data = [];
 
 	// duplicate data to 100 rows
-	for (let i = 0; i < 5; i++) {
+	for (let i = 0; i < 10; i++) {
 		data.push(..._data);
 	}
 
@@ -62,10 +62,11 @@
 	const { filterValue } = pluginStates.filter;
 
 	let height = '60dvh';
+	let placeholder = 'Search...';
 </script>
 
 <div class="flex items-center py-4">
-	<Input class="max-w-sm" placeholder="Filter emails..." type="text" bind:value={$filterValue} />
+	<Input class="max-w-sm" {placeholder} type="text" bind:value={$filterValue} />
 </div>
 <div class="rounded-md border bg-white">
 	<Table.Root {height} {...$tableAttrs}>

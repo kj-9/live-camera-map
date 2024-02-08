@@ -2,8 +2,10 @@
 	import Map from '$lib/components/Map.svelte';
 	import Table from '$lib/components/Table.svelte';
 	import * as Drawer from '$lib/components/ui/drawer';
+	import { Search } from 'lucide-svelte';
+	import { Button } from '$lib/components/ui/button';
 
-	let open = true;
+	//let open = true;
 </script>
 
 <svelte:head>
@@ -12,12 +14,14 @@
 </svelte:head>
 
 <Map>
-	<div class="absolute z-10">
-		<Drawer.Root bind:open>
-			<Drawer.Trigger>Open</Drawer.Trigger>
-			<Drawer.Content>
-				<Table />
-			</Drawer.Content>
-		</Drawer.Root>
-	</div>
+	<Drawer.Root>
+		<Drawer.Trigger class="absolute bottom-5 right-5 z-10">
+			<Button>
+				<Search class="mr-2 h-4 w-4" size="20" />Search
+			</Button>
+		</Drawer.Trigger>
+		<Drawer.Content class="px-4">
+			<Table />
+		</Drawer.Content>
+	</Drawer.Root>
 </Map>
