@@ -9,8 +9,6 @@
 	import { contextKey as mapKey } from '$lib/components/map/Map.svelte';
 	import { contextKey as dataKey } from '$lib/components/DataProvider.svelte';
 
-
-
 	const data = getContext(dataKey);
 
 	// create table from data

@@ -1,17 +1,14 @@
 <script lang="ts" context="module">
-    export const contextKey = 'DATA';
+	export const contextKey = 'DATA';
 </script>
-
 
 <script>
-    import { setContext } from 'svelte';
-    import { readable } from 'svelte/store';
+	import { setContext } from 'svelte';
+	import { readable } from 'svelte/store';
 
-    import data from '../../data/livecams.json';
+	import data from '../../data/livecams.json';
 
-
-    setContext(contextKey, readable(data));
+	setContext(contextKey, readable(data));
 </script>
 
-
-<slot/>
+<slot />
