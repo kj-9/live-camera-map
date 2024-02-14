@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { contextKey } from '$lib/components/map/Map.svelte';
 	import { Popup, Marker } from '$lib/maplibreGL';
 	import { getContext } from 'svelte';
@@ -8,8 +8,8 @@
 
 	export let lat;
 	export let lon;
-	export let label;
+	export let content;
 
-	const popup = new Popup({ offset: 25 }).setHTML(label);
+	const popup = new Popup({ offset: 25 }).setHTML(content);
 	const marker = new Marker().setLngLat([lon, lat]).setPopup(popup).addTo(map);
 </script>

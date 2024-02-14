@@ -1,989 +1,572 @@
 [
 	{
-		"id": "Akabane",
-		"name": {
-			"en": "Akabane Live Camera",
-			"ja": "赤羽ライブカメラ",
-			"ko": "아카바네 실시간 웹캠",
-			"ne": "Akabane प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Akabane",
-			"th": "Akabane กล้องถ่ายทอดสด",
-			"zh-Hans": "赤羽实时摄像头",
-			"zh-Hant": "赤羽實時攝像頭"
+		"name": "成田空港A滑走路",
+		"org": "朝日新聞",
+		"position": {
+			"name": "朝日新聞成田支局",
+			"center": [140.38291153786915, 35.76356912623065],
+			"pitch": null,
+			"bearing": null
 		},
-		"channel": "UCE5uxiZBrhwFPwzlSfmdWQA",
-		"keyword": "赤羽",
-		"center": [139.7187645, 35.78110601],
-		"zoom": 17,
-		"bearing": -160,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/6Pz36K2O6yc?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/6Pz36K2O6yc/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBu4Xb9cfR0Js9vi8aFFOzijnIr8Q"
+		"video": {
+			"platform": "youtube",
+			"id": "LHIVB_u3NR8",
+			"title": "【LIVE】成田空港ライブカメラ　A滑走路（中央）＠朝日新聞成田支局  LIVE at Narita International airport",
+			"description": "成田空港Ａ滑走路（中央）の様子を朝日新聞社成田支局からライブ中継しています。画面左が南方向、画面右が北方向です。\nA滑走路の南側もライ...",
+			"thumbnails": [
+				{
+					"url": "https://i.ytimg.com/vi/LHIVB_u3NR8/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCCFP3gvcPSnGniVlLNHafQM0dkew",
+					"height": 94,
+					"width": 168
+				},
+				{
+					"url": "https://i.ytimg.com/vi/LHIVB_u3NR8/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCgNSI4mGx01OMNhyhqBNNm9iS-dw",
+					"height": 110,
+					"width": 196
+				},
+				{
+					"url": "https://i.ytimg.com/vi/LHIVB_u3NR8/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZlzcRZzgFGoEjDmqcFmThllVncQ",
+					"height": 138,
+					"width": 246
+				},
+				{
+					"url": "https://i.ytimg.com/vi/LHIVB_u3NR8/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBgZ2CDkdYLlGu6XqxL8ciPWSHLxg",
+					"height": 188,
+					"width": 336
+				}
+			]
+		}
 	},
 	{
-		"id": "Oji",
-		"name": {
-			"en": "Oji Live Camera",
-			"ja": "王子ライブカメラ",
-			"ko": "오지 실시간 웹캠",
-			"ne": "Oji प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Oji",
-			"th": "Oji กล้องถ่ายทอดสด",
-			"zh-Hans": "王子实时摄像头",
-			"zh-Hant": "王子實時攝像頭"
+		"name": "【LIVE】福岡・博多駅前ライブカメラ　Hakata station in Fukuoka, Kyushu 하카타 역 라이브",
+		"position": {
+			"name": "",
+			"center": [],
+			"pitch": null,
+			"bearing": null
 		},
-		"channel": "UCQ6oAVLHLS_BhttxMqcyfcw",
-		"keyword": "北とぴあ",
-		"center": [139.7333096, 35.7573877],
-		"zoom": 16,
-		"bearing": -45,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/0Nl4OzObr4U?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/0Nl4OzObr4U/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDB3pgzKVYFehOvKGrX3P8Ba6nc5A"
+		"org": "朝日新聞",
+		"video": {
+			"platform": "youtube",
+			"id": "3D1NIpeZyBg",
+			"title": "【LIVE】福岡・博多駅前ライブカメラ　Hakata station in Fukuoka, Kyushu 하카타 역 라이브",
+			"description": "博多駅前の現在の様子を、朝日新聞社福岡本部からライブ中継しています。\n機器のメンテナンスや回線状況の影響で、一時中断することがありま...",
+			"thumbnails": [
+				{
+					"url": "https://i.ytimg.com/vi/3D1NIpeZyBg/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDdHv2Tot99_tQwbUz1gejY2yGIgQ",
+					"height": 94,
+					"width": 168
+				},
+				{
+					"url": "https://i.ytimg.com/vi/3D1NIpeZyBg/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBq7T2WKHgN3-CTl1hPHbFeCZWpmg",
+					"height": 110,
+					"width": 196
+				},
+				{
+					"url": "https://i.ytimg.com/vi/3D1NIpeZyBg/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPebJcAZPwhTZQG0dq4x2ZdtPIZg",
+					"height": 138,
+					"width": 246
+				},
+				{
+					"url": "https://i.ytimg.com/vi/3D1NIpeZyBg/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDN0fZrCbQXZIKE1N0Ut0UPMXHkFQ",
+					"height": 188,
+					"width": 336
+				}
+			]
+		}
 	},
 	{
-		"id": "Nippori",
-		"name": {
-			"en": "Nippori Live Camera",
-			"ja": "日暮里ライブカメラ",
-			"ko": "닛포리 실시간 웹캠",
-			"ne": "Nippori प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Nippori",
-			"th": "Nippori กล้องถ่ายทอดสด",
-			"zh-Hans": "日暮里实时摄像头",
-			"zh-Hant": "日暮里實時攝像頭"
+		"name": "【LIVE】大阪国際空港（伊丹空港）ライブカメラ　＠朝日新聞社格納庫",
+		"position": {
+			"name": "",
+			"center": [],
+			"pitch": null,
+			"bearing": null
 		},
-		"channel": "UCDyC7xeQxsihyZj8SoICLEw",
-		"keyword": "日暮里",
-		"center": [139.7696439, 35.7290449],
-		"zoom": 17,
-		"bearing": 95,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/rTw-KV0EMmE?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/rTw-KV0EMmE/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLC3wkd1THAB8FaLOd8PerVrQx5Wjg"
+		"org": "朝日新聞",
+		"video": {
+			"platform": "youtube",
+			"id": "sKFAaAtpRxs",
+			"title": "【LIVE】大阪国際空港（伊丹空港）ライブカメラ　＠朝日新聞社格納庫",
+			"description": "大阪国際空港（伊丹空港）にある朝日新聞社の格納庫から、航空機やヘリコプターが離発着する様子を定点カメラでお伝えします。\n機器のメンテ...",
+			"thumbnails": [
+				{
+					"url": "https://i.ytimg.com/vi/sKFAaAtpRxs/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAWjuKH2CwPqzgsNQi-LmatFvjiwQ",
+					"height": 94,
+					"width": 168
+				},
+				{
+					"url": "https://i.ytimg.com/vi/sKFAaAtpRxs/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB6N3sbYlIurZEAfubyE3nzVjTtTA",
+					"height": 110,
+					"width": 196
+				},
+				{
+					"url": "https://i.ytimg.com/vi/sKFAaAtpRxs/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQTzsdbnv8sxLlEg0OXCLdqlCjOw",
+					"height": 138,
+					"width": 246
+				},
+				{
+					"url": "https://i.ytimg.com/vi/sKFAaAtpRxs/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDN8jlxr1Quy2RNiEsK6ilMT9NcZA",
+					"height": 188,
+					"width": 336
+				}
+			]
+		}
 	},
 	{
-		"id": "Akihabara",
-		"name": {
-			"en": "Akihabara Live Camera",
-			"ja": "秋葉原ライブカメラ",
-			"ko": "아키하바라 실시간 웹캠",
-			"ne": "Akihabara प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Akihabara",
-			"th": "Akihabara กล้องถ่ายทอดสด",
-			"zh-Hans": "秋叶原实时摄像头",
-			"zh-Hant": "秋葉原實時攝像頭"
+		"name": "【LIVE】鹿児島・桜島ライブカメラ   SAKURAJIMA - The Active volcano in Japan",
+		"position": {
+			"name": "",
+			"center": [],
+			"pitch": null,
+			"bearing": null
 		},
-		"channel": "UChRQpufaxclkezElsQ04VXw",
-		"keyword": "オノデン",
-		"center": [139.7714222, 35.69827958],
-		"zoom": 17,
-		"bearing": 85,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/SPY1hbQpm8s?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/SPY1hbQpm8s/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAGmNyN4i5O2xr_zZjifzUsJHXv5g"
+		"org": "朝日新聞",
+		"video": {
+			"platform": "youtube",
+			"id": "G7R2pYUxzk0",
+			"title": "【LIVE】鹿児島・桜島ライブカメラ   SAKURAJIMA - The Active volcano in Japan",
+			"description": "鹿児島・桜島の現在の様子を鹿児島県垂水市からライブ中継しています。\nSAKURAJIMA is one of active volcanos in Japan, located in Kyushu area.\n\n#桜島 #鹿児島...",
+			"thumbnails": [
+				{
+					"url": "https://i.ytimg.com/vi/G7R2pYUxzk0/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDZ4dqV-ukwgeUkHn22bJitZ5A-MA",
+					"height": 94,
+					"width": 168
+				},
+				{
+					"url": "https://i.ytimg.com/vi/G7R2pYUxzk0/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBbutesmj6o51vEtsTE5dPm6Df8HA",
+					"height": 110,
+					"width": 196
+				},
+				{
+					"url": "https://i.ytimg.com/vi/G7R2pYUxzk0/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB45vUBWLinbChj71aQdLFdM9e6uw",
+					"height": 138,
+					"width": 246
+				},
+				{
+					"url": "https://i.ytimg.com/vi/G7R2pYUxzk0/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC3kahvPsih9jFRNv1Iq1hLJVk4OA",
+					"height": 188,
+					"width": 336
+				}
+			]
+		}
 	},
 	{
-		"id": "Asakusabashi",
-		"name": {
-			"en": "Asakusabashi Live Camera",
-			"ja": "浅草橋ライブカメラ",
-			"ko": "아사쿠사바시 실시간 웹캠",
-			"ne": "Asakusabashi प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Asakusabashi",
-			"th": "Asakusabashi กล้องถ่ายทอดสด",
-			"zh-Hans": "浅草桥实时摄像头",
-			"zh-Hant": "淺草橋實時攝像頭"
+		"name": "【LIVE】東京国際空港（羽田空港）ライブカメラ＠朝日新聞社格納庫",
+		"position": {
+			"name": "",
+			"center": [],
+			"pitch": null,
+			"bearing": null
 		},
-		"channel": "UCHp3gHgLdp3PPQ0IvlZ-XRg",
-		"keyword": "浅草橋",
-		"center": [139.787526, 35.6971512],
-		"zoom": 17,
-		"bearing": -85,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/DZeox3-O-pc?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/DZeox3-O-pc/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAxooJU1QGA00YR0AC4N9SucmqdpQ"
+		"org": "朝日新聞",
+		"video": {
+			"platform": "youtube",
+			"id": "CUGaNl8iOWQ",
+			"title": "【LIVE】東京国際空港（羽田空港）ライブカメラ＠朝日新聞社格納庫",
+			"description": "羽田空港にある朝日新聞社の格納庫から、A、B滑走路方面をのぞむライブカメラです。航空機が離発着する様子を定点カメラでお伝えします。...",
+			"thumbnails": [
+				{
+					"url": "https://i.ytimg.com/vi/CUGaNl8iOWQ/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAN6ABbSYUj9DkFiIA8DPTCgFa6kw",
+					"height": 94,
+					"width": 168
+				},
+				{
+					"url": "https://i.ytimg.com/vi/CUGaNl8iOWQ/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD_AnK9JzgZbWZPsD2ghMEj4657pg",
+					"height": 110,
+					"width": 196
+				},
+				{
+					"url": "https://i.ytimg.com/vi/CUGaNl8iOWQ/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBfHh3Ze0_Ivr46tyU_5G1vdgQb-g",
+					"height": 138,
+					"width": 246
+				},
+				{
+					"url": "https://i.ytimg.com/vi/CUGaNl8iOWQ/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDzxFu8L5kGd2EHhj0QNkP23NC27A",
+					"height": 188,
+					"width": 336
+				}
+			]
+		}
 	},
 	{
-		"id": "Kanda",
-		"name": {
-			"en": "Kanda Live Camera",
-			"ja": "神田ライブカメラ",
-			"ko": "간다 실시간 웹캠",
-			"ne": "Kanda प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Kanda",
-			"th": "Kanda กล้องถ่ายทอดสด",
-			"zh-Hans": "神田实时摄像头",
-			"zh-Hant": "神田實時攝像頭"
+		"name": "【LIVE】仙台・広瀬通＠朝日新聞社仙台総局　Hirosedori street in Sendai",
+		"position": {
+			"name": "",
+			"center": [],
+			"pitch": null,
+			"bearing": null
 		},
-		"channel": "UCu76uqpelv-VALL5d6zsljg",
-		"keyword": "神田",
-		"center": [139.7712084, 35.69329028],
-		"zoom": 17,
-		"bearing": 120,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/QMWzPqqXvYI?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/QMWzPqqXvYI/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCVDCI1y2h_z6CxYcvjI30h2PPWWA"
+		"org": "朝日新聞",
+		"video": {
+			"platform": "youtube",
+			"id": "ClAXk49nOSw",
+			"title": "【LIVE】仙台・広瀬通＠朝日新聞社仙台総局　Hirosedori street in Sendai",
+			"description": "仙台市内の現在の様子を朝日新聞仙台総局からライブ中継しています。広瀬通の風景をお楽しみください。\nWe are livestreaming the view of Hirosedori...",
+			"thumbnails": [
+				{
+					"url": "https://i.ytimg.com/vi/ClAXk49nOSw/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA_4UATuLzdkzVKW4JRk4V3JX1Xzg",
+					"height": 94,
+					"width": 168
+				},
+				{
+					"url": "https://i.ytimg.com/vi/ClAXk49nOSw/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDXv5vfDSO0l8Z6iMltVUlM5Fggpw",
+					"height": 110,
+					"width": 196
+				},
+				{
+					"url": "https://i.ytimg.com/vi/ClAXk49nOSw/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLApRPCSLLUVNBT63MIq64EE6Bf-Yw",
+					"height": 138,
+					"width": 246
+				},
+				{
+					"url": "https://i.ytimg.com/vi/ClAXk49nOSw/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAyklviZBtoJ9TEx3gygDMVC9F3wg",
+					"height": 188,
+					"width": 336
+				}
+			]
+		}
 	},
 	{
-		"id": "Shiodome-1",
-		"name": {
-			"en": "Shiodome Live Camera 1",
-			"ja": "汐留ライブカメラ1",
-			"ko": "시오도메 실시간 웹캠 1",
-			"ne": "Shiodome प्रत्यक्ष क्यामेरा 1",
-			"pt": "Câmera ao vivo Shiodome 1",
-			"th": "Shiodome กล้องถ่ายทอดสด 1",
-			"zh-Hans": "汐留实时摄像头1",
-			"zh-Hant": "汐留實時攝像頭1"
+		"name": "【LIVE】大阪・中之島ライブカメラ＠朝日新聞大阪本社",
+		"position": {
+			"name": "",
+			"center": [],
+			"pitch": null,
+			"bearing": null
 		},
-		"channel": "UCbTLJi8lXWIt_d1AtRv4Nmw",
-		"keyword": "Live Camera Ch1",
-		"center": [139.7585034, 35.65859265],
-		"zoom": 17,
-		"bearing": 160,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/k1xsf82xFtc?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/k1xsf82xFtc/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAbrneK9EHxbHCy1r45nCgG2Nf0jw"
+		"org": "朝日新聞",
+		"video": {
+			"platform": "youtube",
+			"id": "Rs_-7QS22B4",
+			"title": "【LIVE】大阪・中之島ライブカメラ＠朝日新聞大阪本社",
+			"description": "（お知らせ・こちらのライブ中継は、朝日新聞チャンネルから移動して、２０２２年８月２４日から朝日新聞LIVEチャンネルで配信しています。）...",
+			"thumbnails": [
+				{
+					"url": "https://i.ytimg.com/vi/Rs_-7QS22B4/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBgD3UWdQPkpZ6bZqkBK9eUEZqiWQ",
+					"height": 94,
+					"width": 168
+				},
+				{
+					"url": "https://i.ytimg.com/vi/Rs_-7QS22B4/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDKn0ko2JENeFvUGarpYK2qRpTsVw",
+					"height": 110,
+					"width": 196
+				},
+				{
+					"url": "https://i.ytimg.com/vi/Rs_-7QS22B4/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0co63tXfmgPfGNtfy7ZCS5Fee3Q",
+					"height": 138,
+					"width": 246
+				},
+				{
+					"url": "https://i.ytimg.com/vi/Rs_-7QS22B4/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDTubY9wvdZ2Zm8aPPkGUgRKWWKHA",
+					"height": 188,
+					"width": 336
+				}
+			]
+		}
 	},
 	{
-		"id": "Shiodome-2",
-		"name": {
-			"en": "Shiodome Live Camera 2",
-			"ja": "汐留ライブカメラ2",
-			"ko": "시오도메 실시간 웹캠 2",
-			"ne": "Shiodome प्रत्यक्ष क्यामेरा 2",
-			"pt": "Câmera ao vivo Shiodome 2",
-			"th": "Shiodome กล้องถ่ายทอดสด 2",
-			"zh-Hans": "汐留实时摄像头2",
-			"zh-Hant": "汐留實時攝像頭2"
+		"name": "【LIVE】岡山後楽園ライブカメラ Okayama Korakuen Garden",
+		"position": {
+			"name": "",
+			"center": [],
+			"pitch": null,
+			"bearing": null
 		},
-		"channel": "UCtfM7Y_79myO0WL9f8HgwUg",
-		"keyword": "ゆりかもめ",
-		"center": [139.7586465, 35.6592867],
-		"zoom": 17,
-		"bearing": 65,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/b4NW4cwOunQ?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/b4NW4cwOunQ/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBoJpi8B0HSYmOhzprBAYRueIj-jA"
+		"org": "朝日新聞",
+		"video": {
+			"platform": "youtube",
+			"id": "Mk-_-Nq7Mtw",
+			"title": "【LIVE】岡山後楽園ライブカメラ Okayama Korakuen Garden",
+			"description": "岡山後楽園の現在の様子を、園内にある福田茶屋の藤棚に設置したカメラからライブ中継しています。四季折々の園の様子をお楽しみください。...",
+			"thumbnails": [
+				{
+					"url": "https://i.ytimg.com/vi/Mk-_-Nq7Mtw/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDXIyIm1rnPEKEOxgwQ9RPnvVYzhg",
+					"height": 94,
+					"width": 168
+				},
+				{
+					"url": "https://i.ytimg.com/vi/Mk-_-Nq7Mtw/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD0U8b4MUj_381vjXaQIO11iG-WDg",
+					"height": 110,
+					"width": 196
+				},
+				{
+					"url": "https://i.ytimg.com/vi/Mk-_-Nq7Mtw/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLArtyL4ww-SWlGTstdoa5fWMO__mA",
+					"height": 138,
+					"width": 246
+				},
+				{
+					"url": "https://i.ytimg.com/vi/Mk-_-Nq7Mtw/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCbChZfGTep_pTihaBeqgutTd6u5g",
+					"height": 188,
+					"width": 336
+				}
+			]
+		}
 	},
 	{
-		"id": "Shiodome-3",
-		"name": {
-			"en": "Shiodome Live Camera 3",
-			"ja": "汐留ライブカメラ3",
-			"ko": "시오도메 실시간 웹캠 3",
-			"ne": "Shiodome प्रत्यक्ष क्यामेरा 3",
-			"pt": "Câmera ao vivo Shiodome 3",
-			"th": "Shiodome กล้องถ่ายทอดสด 3",
-			"zh-Hans": "汐留实时摄像头3",
-			"zh-Hant": "汐留實時攝像頭3"
+		"name": "【LIVE】北海道・札幌ライブカメラ　大通公園・さっぽろテレビ塔＠さっぽろ創世スクエア　Sapporo Odori Park in Hokkaido　삿포로 라이브　札幌LIVE",
+		"position": {
+			"name": "",
+			"center": [],
+			"pitch": null,
+			"bearing": null
 		},
-		"channel": "UCpeOSC88eDaWC-0bfuJJlhQ",
-		"keyword": "汐留",
-		"center": [139.7587991, 35.6634417],
-		"zoom": 17,
-		"bearing": 135,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/xXLUITa6pOY?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/xXLUITa6pOY/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLD_-Gfx-gZ69as3Li2FSkxSewAjNQ"
+		"org": "朝日新聞",
+		"video": {
+			"platform": "youtube",
+			"id": "fZ4XElN2McU",
+			"title": "【LIVE】北海道・札幌ライブカメラ　大通公園・さっぽろテレビ塔＠さっぽろ創世スクエア　Sapporo Odori Park in Hokkaido　삿포로 라이브　札幌LIVE",
+			"description": "大通公園・さっぽろテレビ塔周辺（札幌市中央区）の現在の様子を、さっぽろ創世スクエアの朝日新聞社北海道支社からライブ中継しています。...",
+			"thumbnails": [
+				{
+					"url": "https://i.ytimg.com/vi/fZ4XElN2McU/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCL2VGbSAeIlNlYDmAaPwEG3qW3hg",
+					"height": 94,
+					"width": 168
+				},
+				{
+					"url": "https://i.ytimg.com/vi/fZ4XElN2McU/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC1qXKxBhKt3_niZ3-b_CQi91PL2Q",
+					"height": 110,
+					"width": 196
+				},
+				{
+					"url": "https://i.ytimg.com/vi/fZ4XElN2McU/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCisRoA_tvfFNqT31uwsj2zl6eUBg",
+					"height": 138,
+					"width": 246
+				},
+				{
+					"url": "https://i.ytimg.com/vi/fZ4XElN2McU/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCm-Zt8iKiBd_dwIDurWV5TCs1_AA",
+					"height": 188,
+					"width": 336
+				}
+			]
+		}
 	},
 	{
-		"id": "Tamachi-1",
-		"name": {
-			"en": "Tamachi Live Camera 1",
-			"ja": "田町ライブカメラ1",
-			"ko": "다마치 실시간 웹캠 1",
-			"ne": "Tamachi प्रत्यक्ष क्यामेरा 1",
-			"pt": "Câmera ao vivo Tamachi 1",
-			"th": "Tamachi กล้องถ่ายทอดสด 1",
-			"zh-Hans": "田町实时摄像头1",
-			"zh-Hant": "田町實時攝像頭1"
+		"name": "【LIVE】成田空港ライブカメラ　A滑走路(南側）＠朝日新聞成田支局  LIVE at Narita International airport",
+		"position": {
+			"name": "",
+			"center": [],
+			"pitch": null,
+			"bearing": null
 		},
-		"channel": "UC_9dgNP8GvfhUURELouR3Dg",
-		"keyword": "東京タワー",
-		"center": [139.7540224, 35.6491801],
-		"zoom": 17,
-		"bearing": -30,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/Tz8NEpxF6zY?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/Tz8NEpxF6zY/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAefD-IThmDbuq1WVU3PPfekSwI-A"
+		"org": "朝日新聞",
+		"video": {
+			"platform": "youtube",
+			"id": "wb2xVVPA_2o",
+			"title": "【LIVE】成田空港ライブカメラ　A滑走路(南側）＠朝日新聞成田支局  LIVE at Narita International airport",
+			"description": "成田空港Ａ滑走路の南側の様子を朝日新聞社成田支局からライブ中継しています。\n画面左が南方向、画面右が北方向です。\nA滑走路の中央付近（...",
+			"thumbnails": [
+				{
+					"url": "https://i.ytimg.com/vi/wb2xVVPA_2o/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCB-6vTaIAuuFAwX2pgNDKzSmj2Lg",
+					"height": 94,
+					"width": 168
+				},
+				{
+					"url": "https://i.ytimg.com/vi/wb2xVVPA_2o/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDfroxNsQL-7BfcztH56FpOlUqMKQ",
+					"height": 110,
+					"width": 196
+				},
+				{
+					"url": "https://i.ytimg.com/vi/wb2xVVPA_2o/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBWnwDgG0ByknKwGgRlIJeO7Y32mA",
+					"height": 138,
+					"width": 246
+				},
+				{
+					"url": "https://i.ytimg.com/vi/wb2xVVPA_2o/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCfyRa0yEoN-ERG6SIXFJB8AIhzLA",
+					"height": 188,
+					"width": 336
+				}
+			]
+		}
 	},
 	{
-		"id": "Tamachi-2",
-		"name": {
-			"en": "Tamachi Live Camera 2",
-			"ja": "田町ライブカメラ2",
-			"ko": "다마치 실시간 웹캠 2",
-			"ne": "Tamachi प्रत्यक्ष क्यामेरा 2",
-			"pt": "Câmera ao vivo Tamachi 2",
-			"th": "Tamachi กล้องถ่ายทอดสด 2",
-			"zh-Hans": "田町实时摄像头2",
-			"zh-Hant": "田町實時攝像頭2"
+		"name": "【LIVE】東京・築地ライブカメラ　湾岸やレインボーブリッジのある風景　 at Tsukiji, view of Tokyo waterfront and Rainbow bridge",
+		"position": {
+			"name": "",
+			"center": [],
+			"pitch": null,
+			"bearing": null
 		},
-		"channel": "UC96O4EvwNNyvdQcCBDpl-ZQ",
-		"keyword": "田町",
-		"center": [139.7517137, 35.6474009],
-		"zoom": 17,
-		"bearing": 170,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/Bx7ZRKuAkrE?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/Bx7ZRKuAkrE/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCbHe8ZvmnQ8CCsQ-HOJQGRpubPJg"
+		"org": "朝日新聞",
+		"video": {
+			"platform": "youtube",
+			"id": "bKVGdsMVuMA",
+			"title": "【LIVE】東京・築地ライブカメラ　湾岸やレインボーブリッジのある風景　 at Tsukiji, view of Tokyo waterfront and Rainbow bridge",
+			"description": "築地市場の跡地（東京都中央区）や環状２号線、遠くにはレインボーブリッジを現在の様子や湾岸の風景を朝日新聞社東京本社からライブ中継し...",
+			"thumbnails": [
+				{
+					"url": "https://i.ytimg.com/vi/bKVGdsMVuMA/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCVEuhG2N2lot-VdPYh0aAmFFmM2Q",
+					"height": 94,
+					"width": 168
+				},
+				{
+					"url": "https://i.ytimg.com/vi/bKVGdsMVuMA/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLClCR_LfI3V_CHJ4jgqwA-I119kxg",
+					"height": 110,
+					"width": 196
+				},
+				{
+					"url": "https://i.ytimg.com/vi/bKVGdsMVuMA/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB9u9keiPC9T-JCu1naYACxcZVcOQ",
+					"height": 138,
+					"width": 246
+				},
+				{
+					"url": "https://i.ytimg.com/vi/bKVGdsMVuMA/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDbHq3Xd3Zgg8AyrvTusB93cwJ5dw",
+					"height": 188,
+					"width": 336
+				}
+			]
+		}
 	},
 	{
-		"id": "Odaiba-Kaihinkoen-1",
-		"name": {
-			"en": "Odaiba-Kaihinkoen Live Camera 1",
-			"ja": "お台場海浜公園ライブカメラ1",
-			"ko": "오다이바카이힌코엔 실시간 웹캠 1",
-			"ne": "Odaiba-Kaihinkoen प्रत्यक्ष क्यामेरा 1",
-			"pt": "Câmera ao vivo Odaiba-Kaihinkoen 1",
-			"th": "Odaiba-Kaihinkoen กล้องถ่ายทอดสด 1",
-			"zh-Hans": "御台场海滨公园实时摄像头1",
-			"zh-Hant": "御台場海濱公園實時攝像頭1"
+		"name": "【LIVE】千葉県ライブカメラ　千葉市内の現在の様子　Chiba 지바",
+		"position": {
+			"name": "",
+			"center": [],
+			"pitch": null,
+			"bearing": null
 		},
-		"channel": "UCaxxRyMskvvbpQMo-VJpNhw",
-		"keyword": "有明ライブカメラ",
-		"center": [139.7802499, 35.63243317],
-		"zoom": 16,
-		"bearing": 125,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/_ByNEL0Ton4?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/_ByNEL0Ton4/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAj2ot5h4vfYGcPZ1QRCTKAVzmAhA"
+		"org": "朝日新聞",
+		"video": {
+			"platform": "youtube",
+			"id": "yXn9ZlZWBbk",
+			"title": "【LIVE】千葉県ライブカメラ　千葉市内の現在の様子　Chiba 지바",
+			"description": "朝日新聞社千葉総局の窓から千葉市中央区の京成千葉中央駅前の様子をライブ中継しています。\n機器のメンテナンスや回線状況の影響で、一時中...",
+			"thumbnails": [
+				{
+					"url": "https://i.ytimg.com/vi/yXn9ZlZWBbk/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLATgfSBWgQvUC5g_3Bpdi_If5L3Ng",
+					"height": 94,
+					"width": 168
+				},
+				{
+					"url": "https://i.ytimg.com/vi/yXn9ZlZWBbk/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLByMQb5emZUqh_M2VSxI931ggrIfw",
+					"height": 110,
+					"width": 196
+				},
+				{
+					"url": "https://i.ytimg.com/vi/yXn9ZlZWBbk/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLALuR16cbGNAiNH4NG2e7PelAjltg",
+					"height": 138,
+					"width": 246
+				},
+				{
+					"url": "https://i.ytimg.com/vi/yXn9ZlZWBbk/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAu5fMYqw6qzsGSGfUOfYLJgavmIA",
+					"height": 188,
+					"width": 336
+				}
+			]
+		}
 	},
 	{
-		"id": "Odaiba-Kaihinkoen-2",
-		"name": {
-			"en": "Odaiba-Kaihinkoen Live Camera 2",
-			"ja": "お台場海浜公園ライブカメラ2",
-			"ko": "오다이바카이힌코엔 실시간 웹캠 2",
-			"ne": "Odaiba-Kaihinkoen प्रत्यक्ष क्यामेरा 2",
-			"pt": "Câmera ao vivo Odaiba-Kaihinkoen 2",
-			"th": "Odaiba-Kaihinkoen กล้องถ่ายทอดสด 2",
-			"zh-Hans": "御台场海滨公园实时摄像头2",
-			"zh-Hant": "御台場海濱公園實時攝像頭2"
+		"name": "【LIVE】銀座ライブカメラ　数寄屋橋スクランブル交差点 Sukiyabashi crossing in Ginza, Tokyo 스키야바시 긴자",
+		"position": {
+			"name": "",
+			"center": [],
+			"pitch": null,
+			"bearing": null
 		},
-		"channel": "UC-iKt6xd8uD-8_kXRfPY7Jw",
-		"keyword": "レインボーブリッジと東京タワー",
-		"center": [139.7739043, 35.63603721],
-		"zoom": 15.5,
-		"bearing": -70,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/V38rTc53NlM?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/V38rTc53NlM/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBM5iGkKsdANfBDPFSTt5fDzK2qoA"
+		"org": "朝日新聞",
+		"video": {
+			"platform": "youtube",
+			"id": "EuOZeHQmg-4",
+			"title": "【LIVE】銀座ライブカメラ　数寄屋橋スクランブル交差点 Sukiyabashi crossing in Ginza, Tokyo 스키야바시 긴자",
+			"description": "数寄屋橋のスクランブル交差点（銀座）の現在の様子を、有楽町駅前の有楽町マリオンからライブ中継しています。\n機器のメンテナンスや回線状...",
+			"thumbnails": [
+				{
+					"url": "https://i.ytimg.com/vi/EuOZeHQmg-4/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCU7fGuVmoDhSsj64PfFi8AbUySpg",
+					"height": 94,
+					"width": 168
+				},
+				{
+					"url": "https://i.ytimg.com/vi/EuOZeHQmg-4/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDow1gg0G3MNgZCyo8MN8G_hNpFMw",
+					"height": 110,
+					"width": 196
+				},
+				{
+					"url": "https://i.ytimg.com/vi/EuOZeHQmg-4/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAy5RBm6cV-ZN9b9jtEXsK8kjEOfA",
+					"height": 138,
+					"width": 246
+				},
+				{
+					"url": "https://i.ytimg.com/vi/EuOZeHQmg-4/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVgyTCb9bSuJSWqv7L8zIueLMgtw",
+					"height": 188,
+					"width": 336
+				}
+			]
+		}
 	},
 	{
-		"id": "Shinonome",
-		"name": {
-			"en": "Shinonome Live Camera",
-			"ja": "東雲ライブカメラ",
-			"ko": "시노노메 실시간 웹캠",
-			"ne": "Shinonome प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Shinonome",
-			"th": "Shinonome กล้องถ่ายทอดสด",
-			"zh-Hans": "东云实时摄像头",
-			"zh-Hant": "東雲實時攝像頭"
+		"name": "【LIVE】東京国際空港（羽田空港）ライブカメラ＠朝日新聞社格納庫　第２",
+		"position": {
+			"name": "",
+			"center": [],
+			"pitch": null,
+			"bearing": null
 		},
-		"channel": "UCwalBJrcoOVwid4wKfWkRiA",
-		"keyword": "東雲駅",
-		"center": [139.8026874, 35.6403791],
-		"zoom": 17,
-		"bearing": 105,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/qcXOLpnRh10?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/qcXOLpnRh10/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBjLZ4TaYLmMHqfiQImX_3gBEM6aw"
+		"org": "朝日新聞",
+		"video": {
+			"platform": "youtube",
+			"id": "mYhkthVZUhY",
+			"title": "【LIVE】東京国際空港（羽田空港）ライブカメラ＠朝日新聞社格納庫　第２",
+			"description": "羽田空港にある朝日新聞社の格納庫から、航空機が離発着する様子を定点カメラでお伝えします。\n機器のメンテナンスや回線状況の影響で、一時...",
+			"thumbnails": [
+				{
+					"url": "https://i.ytimg.com/vi/mYhkthVZUhY/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBqpyVWRm-pqyNBvnKDo7UpWa34Ig",
+					"height": 94,
+					"width": 168
+				},
+				{
+					"url": "https://i.ytimg.com/vi/mYhkthVZUhY/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCJK3Pu-r9a3FI5TW1ZOxqQYZNIWA",
+					"height": 110,
+					"width": 196
+				},
+				{
+					"url": "https://i.ytimg.com/vi/mYhkthVZUhY/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBbXiAWD6BUxBhrS81Zbs7igR02NA",
+					"height": 138,
+					"width": 246
+				},
+				{
+					"url": "https://i.ytimg.com/vi/mYhkthVZUhY/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZKpOzGtWsZQnYQ3VqQq5zoaT7Xw",
+					"height": 188,
+					"width": 336
+				}
+			]
+		}
 	},
 	{
-		"id": "Kaihimmakuhari",
-		"name": {
-			"en": "Kaihimmakuhari Live Camera",
-			"ja": "海浜幕張ライブカメラ",
-			"ko": "가이힌마쿠하리 실시간 웹캠",
-			"ne": "Kaihimmakuhari प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Kaihimmakuhari",
-			"th": "Kaihimmakuhari กล้องถ่ายทอดสด",
-			"zh-Hans": "海滨幕张实时摄像头",
-			"zh-Hant": "海濱幕張實時攝像頭"
+		"name": "【LIVE】沖縄ライブカメラ　那覇市内の現在の様子　眼下には「ゆいレール」　Okinawa, Naha　 오키나와、 나하",
+		"position": {
+			"name": "",
+			"center": [],
+			"pitch": null,
+			"bearing": null
 		},
-		"channel": "UCfpHxPLvUpjcFxn3-WM5nGw",
-		"keyword": "海浜幕張",
-		"center": [140.0418753, 35.6488704],
-		"zoom": 17,
-		"bearing": 80,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/cFuWzmDqap0?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/cFuWzmDqap0/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAgdkjYEA-LHL0t5WCZ7g9weU3BVA"
-	},
-	{
-		"id": "Haneda-Airport-1",
-		"name": {
-			"en": "Haneda Airport Terminal 1 Live Camera",
-			"ja": "羽田空港第1ターミナルライブカメラ",
-			"ko": "하네다 공항 제1 터미널 실시간 웹캠",
-			"ne": "Haneda Airport Terminal 1 प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo do Terminal 1 do Aeroporto Haneda",
-			"th": "Haneda Airport Terminal 1 กล้องถ่ายทอดสด",
-			"zh-Hans": "羽田机场第1航站楼实时摄像头",
-			"zh-Hant": "羽田機場第1航廈實時攝像頭"
-		},
-		"channel": "UCuTAXTexrhetbOe3zgskJBQ",
-		"keyword": "羽田空港 \"T1\"",
-		"center": [139.7808564, 35.5485016],
-		"zoom": 16,
-		"bearing": -110,
-		"pitch": 75,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/H8dYQPRY_Bg?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/H8dYQPRY_Bg/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAJOJd3PNnTYDbqxYllw1FCy28qfQ"
-	},
-	{
-		"id": "Haneda-Airport-2",
-		"name": {
-			"en": "Haneda Airport Terminal 2 Live Camera",
-			"ja": "羽田空港第2ターミナルライブカメラ",
-			"ko": "하네다 공항 제2 터미널 실시간 웹캠",
-			"ne": "Haneda Airport Terminal 2 प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo do Terminal 2 do Aeroporto Haneda",
-			"th": "Haneda Airport Terminal 2 กล้องถ่ายทอดสด",
-			"zh-Hans": "羽田机场第2航站楼实时摄像头",
-			"zh-Hant": "羽田機場第2航廈實時攝像頭"
-		},
-		"channel": "UCuTAXTexrhetbOe3zgskJBQ",
-		"keyword": "羽田空港 \"T2\"",
-		"center": [139.7904831, 35.5517931],
-		"zoom": 16,
-		"bearing": 110,
-		"pitch": 75,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/x_fHq3B_UP4?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/x_fHq3B_UP4/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLClO6_5F7VkMDaohyXfNZuoeHSkhw"
-	},
-	{
-		"id": "Yazaike",
-		"name": {
-			"en": "Yazaike Live Camera",
-			"ja": "谷在家ライブカメラ",
-			"ko": "야자이케 실시간 웹캠",
-			"ne": "Yazaike प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Yazaike",
-			"th": "Yazaike กล้องถ่ายทอดสด",
-			"zh-Hans": "谷在家实时摄像头",
-			"zh-Hant": "谷在家實時攝像頭"
-		},
-		"channel": "UCPsjdwVy2etWVaz1m2mcyxQ",
-		"keyword": "日暮里舎人ライナー",
-		"center": [139.7700405, 35.7875643],
-		"zoom": 17,
-		"bearing": -75,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/NC2RLgHLWE0?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/NC2RLgHLWE0/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAiEwRQT331HXCv-UwCrfLoVC9MeQ"
-	},
-	{
-		"id": "Takasaki",
-		"name": {
-			"en": "Takasaki Live Camera",
-			"ja": "高崎ライブカメラ",
-			"ko": "다카사키 실시간 웹캠",
-			"ne": "Takasaki प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Takasaki",
-			"th": "Takasaki กล้องถ่ายทอดสด",
-			"zh-Hans": "高崎实时摄像头",
-			"zh-Hant": "高崎實時攝像頭"
-		},
-		"channel": "UCGCZAYq5Xxojl_tSXcVJhiQ",
-		"keyword": "高崎",
-		"center": [139.0131878, 36.3232896],
-		"zoom": 17,
-		"bearing": 130,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/YZcRxaKmvU4?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/YZcRxaKmvU4/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBvZpPCv2yEzzgdf2FaC7Rn0WGuvw"
-	},
-	{
-		"id": "Saitama-Shintoshin",
-		"name": {
-			"en": "Saitama-Shintoshin Live Camera",
-			"ja": "さいたま新都心ライブカメラ",
-			"ko": "사이타마 신도심 실시간 웹캠",
-			"ne": "Saitama-Shintoshin प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Saitama-Shintoshin",
-			"th": "Saitama-Shintoshin กล้องถ่ายทอดสด",
-			"zh-Hans": "埼玉新都心实时摄像头",
-			"zh-Hant": "埼玉新都心實時攝像頭"
-		},
-		"channel": "UCDyC7xeQxsihyZj8SoICLEw",
-		"keyword": "大宮操車場",
-		"center": [139.6354502, 35.8908842],
-		"zoom": 17,
-		"bearing": -75,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/5c8qExWjl9k?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/5c8qExWjl9k/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAKJ9T0qv7qXrYdQcF30QiwUMMpDw"
-	},
-	{
-		"id": "Yono",
-		"name": {
-			"en": "Yono Live Camera",
-			"ja": "与野ライブカメラ",
-			"ko": "요노 실시간 웹캠",
-			"ne": "Yono प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Yono",
-			"th": "Yono กล้องถ่ายทอดสด",
-			"zh-Hans": "与野实时摄像头",
-			"zh-Hant": "與野實時攝像頭"
-		},
-		"channel": "UCtf0x3AATj7_5_ZXojdcW7g",
-		"keyword": "さいたま",
-		"center": [139.6404027, 35.8811435],
-		"zoom": 17,
-		"bearing": -170,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/4YAw4pSPrS0?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/4YAw4pSPrS0/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDVE2jnUWu6mzqxsM5Vb6NSGL1lmQ"
-	},
-	{
-		"id": "Ikebukuro",
-		"name": {
-			"en": "Ikebukuro Live Camera",
-			"ja": "池袋ライブカメラ",
-			"ko": "이케부쿠로 실시간 웹캠",
-			"ne": "Ikebukuro प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Ikebukuro",
-			"th": "Ikebukuro กล้องถ่ายทอดสด",
-			"zh-Hans": "池袋实时摄像头",
-			"zh-Hant": "池袋實時攝像頭"
-		},
-		"channel": "UCZDmkaJ80vMMvvflpN32h-A",
-		"keyword": "東京スカイライン",
-		"center": [139.7153762, 35.736936],
-		"zoom": 16,
-		"bearing": -160,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/gBe_eGawo6c?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/gBe_eGawo6c/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA0I4dNqY8q_x3WFKA2154CmV451g"
-	},
-	{
-		"id": "Kami-Fukuoka",
-		"name": {
-			"en": "Kami-fukuoka Live Camera",
-			"ja": "上福岡ライブカメラ",
-			"ko": "가미후쿠오카 실시간 웹캠",
-			"ne": "Kami-fukuoka प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Kami-fukuoka",
-			"th": "Kami-fukuoka กล้องถ่ายทอดสด",
-			"zh-Hans": "上福冈实时摄像头",
-			"zh-Hant": "上福岡實時攝像頭"
-		},
-		"channel": "UCJLpKOb6re6_Ey3pgbBWI9w",
-		"keyword": "上福岡",
-		"center": [139.5122509, 35.8734921],
-		"zoom": 17,
-		"bearing": -80,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/7B0dheVZzmQ?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/7B0dheVZzmQ/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBSNnwNv1LlXRvZgiZWLC3PofVvug"
-	},
-	{
-		"id": "Shakujii-Koen",
-		"name": {
-			"en": "Shakujii-Koen Live Camera",
-			"ja": "石神井公園ライブカメラ",
-			"ko": "샤쿠지이 공원 실시간 웹캠",
-			"ne": "Shakujii-Koen प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Shakujii-Koen",
-			"th": "Shakujii-Koen กล้องถ่ายทอดสด",
-			"zh-Hans": "石神井公园实时摄像头",
-			"zh-Hant": "石神井公園實時攝像頭"
-		},
-		"channel": "UCBOGp2muSXsqNw8hRvvBfOw",
-		"keyword": "石神井公園",
-		"center": [139.6020948, 35.7448454],
-		"zoom": 17,
-		"bearing": 100,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/MQyEs1jdVl8?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/MQyEs1jdVl8/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBdJjWSWzAwz29jff_bfLP6sDGX7w"
-	},
-	{
-		"id": "Hoya",
-		"name": {
-			"en": "Hoya Live Camera",
-			"ja": "保谷ライブカメラ",
-			"ko": "호야 실시간 웹캠",
-			"ne": "Hoya प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Hoya",
-			"th": "Hoya กล้องถ่ายทอดสด",
-			"zh-Hans": "保谷实时摄像头",
-			"zh-Hant": "保谷實時攝像頭"
-		},
-		"channel": "UCAPMlxH-TQVQNzKgD9V_JEw",
-		"keyword": "保谷",
-		"center": [139.5651948, 35.748163],
-		"zoom": 17,
-		"bearing": -160,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/wSm_qAmf_8U?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/wSm_qAmf_8U/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDR_BZhDncENFJad6DF68haTIgKJA"
-	},
-	{
-		"id": "Kiyose",
-		"name": {
-			"en": "Kiyose Live Camera",
-			"ja": "清瀬ライブカメラ",
-			"ko": "기요세 실시간 웹캠",
-			"ne": "Kiyose प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Kiyose",
-			"th": "Kiyose กล้องถ่ายทอดสด",
-			"zh-Hans": "清濑实时摄像头",
-			"zh-Hant": "清瀨實時攝像頭"
-		},
-		"channel": "UCOTRQ2aeB0s8D33ev6mmFbg",
-		"keyword": "清瀬",
-		"center": [139.5220276, 35.7715781],
-		"zoom": 17,
-		"bearing": 80,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/cpWVLVSsryY?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/cpWVLVSsryY/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBK1M6dkT-NeyKo-ymvGb7aW7gnBw"
-	},
-	{
-		"id": "Seibu-Shinjuku",
-		"name": {
-			"en": "Seibu-Shinjuku Live Camera",
-			"ja": "西武新宿ライブカメラ",
-			"ko": "세이부 신주쿠 실시간 웹캠",
-			"ne": "Seibu-Shinjuku प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Seibu-Shinjuku",
-			"th": "Seibu-Shinjuku กล้องถ่ายทอดสด",
-			"zh-Hans": "西武新宿实时摄像头",
-			"zh-Hant": "西武新宿實時攝像頭"
-		},
-		"channel": "UC5tScs1xEO1wqNmLCeWr99w",
-		"keyword": "新宿",
-		"center": [139.6997994, 35.6948233],
-		"zoom": 17,
-		"bearing": 45,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/1VfE8AW7Gug?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/1VfE8AW7Gug/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDnO9xNY7In8c61KhKpc6naohDWAw"
-	},
-	{
-		"id": "Shinjuku-1",
-		"name": {
-			"en": "Shinjuku Live Camera 1",
-			"ja": "新宿ライブカメラ1",
-			"ko": "신주쿠 실시간 웹캠 1",
-			"ne": "Shinjuku प्रत्यक्ष क्यामेरा 1",
-			"pt": "Câmera ao vivo Shinjuku 1",
-			"th": "Shinjuku กล้องถ่ายทอดสด 1",
-			"zh-Hans": "新宿实时摄像头1",
-			"zh-Hant": "新宿實時攝像頭1"
-		},
-		"channel": "UC8cnCaq-MquhsebMer9A9rQ",
-		"keyword": "ビジョン視点",
-		"center": [139.7005626, 35.6926114],
-		"zoom": 17,
-		"bearing": -100,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/lONk7vHtPBs?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/lONk7vHtPBs/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBY_ojKRfqw7vAibhKI1W0T4m2SEg"
-	},
-	{
-		"id": "Shinjuku-2",
-		"name": {
-			"en": "Shinjuku Live Camera 2",
-			"ja": "新宿ライブカメラ2",
-			"ko": "신주쿠 실시간 웹캠 2",
-			"ne": "Shinjuku प्रत्यक्ष क्यामेरा 2",
-			"pt": "Câmera ao vivo Shinjuku 2",
-			"th": "Shinjuku กล้องถ่ายทอดสด 2",
-			"zh-Hans": "新宿实时摄像头2",
-			"zh-Hant": "新宿實時攝像頭2"
-		},
-		"channel": "UC56apcbc2pLZ9xyBizbD1Dg",
-		"keyword": "西武新宿",
-		"center": [139.7002218, 35.6935386],
-		"zoom": 17,
-		"bearing": -155,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/lA6TaaMGgDo?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/lA6TaaMGgDo/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAoWyM05pyzogk_R5xTGHTpLEmwDA"
-	},
-	{
-		"id": "Shibuya",
-		"name": {
-			"en": "Shibuya Live Camera",
-			"ja": "渋谷ライブカメラ",
-			"ko": "시부야 실시간 웹캠",
-			"ne": "Shibuya प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Shibuya",
-			"th": "Shibuya กล้องถ่ายทอดสด",
-			"zh-Hans": "涩谷实时摄像头",
-			"zh-Hant": "澀谷實時攝像頭"
-		},
-		"channel": "UCGCZAYq5Xxojl_tSXcVJhiQ",
-		"keyword": "渋谷",
-		"center": [139.7007593, 35.6593216],
-		"zoom": 17,
-		"bearing": 120,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/RTwNEfirmks?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/RTwNEfirmks/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBxs2qv5Zd_L-xnHI3xtKduDCBE2w"
-	},
-	{
-		"id": "Ebisu",
-		"name": {
-			"en": "Ebisu Live Camera",
-			"ja": "恵比寿ライブカメラ",
-			"ko": "에비스 실시간 웹캠",
-			"ne": "Ebisu प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Ebisu",
-			"th": "Ebisu กล้องถ่ายทอดสด",
-			"zh-Hans": "惠比寿实时摄像头",
-			"zh-Hant": "惠比壽實時攝像頭"
-		},
-		"channel": "UCblxymfdtaQOxPQrdlP4GPQ",
-		"keyword": "恵比寿駅前",
-		"center": [139.7086365, 35.6470621],
-		"zoom": 17,
-		"bearing": 30,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/LR7i5_pkJBg?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/LR7i5_pkJBg/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBhv3ldbHlAsu5BChnC58ugMKdXHw"
-	},
-	{
-		"id": "Meguro",
-		"name": {
-			"en": "Meguro Live Camera",
-			"ja": "目黒ライブカメラ",
-			"ko": "메구로 실시간 웹캠",
-			"ne": "Meguro प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Meguro",
-			"th": "Meguro กล้องถ่ายทอดสด",
-			"zh-Hans": "目黒实时摄像头",
-			"zh-Hant": "目黑實時攝像頭"
-		},
-		"channel": "UCblxymfdtaQOxPQrdlP4GPQ",
-		"keyword": "目黒",
-		"center": [139.7146047, 35.6378094],
-		"zoom": 17,
-		"bearing": -175,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/xQ6PXps76t4?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/xQ6PXps76t4/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCUcStUB9wUQdymVLh2ilagWyqTjg"
-	},
-	{
-		"id": "Toyoda-1",
-		"name": {
-			"en": "Toyoda Live Camera 1",
-			"ja": "豊田ライブカメラ1",
-			"ko": "도요다 실시간 웹캠 1",
-			"ne": "Toyoda प्रत्यक्ष क्यामेरा 1",
-			"pt": "Câmera ao vivo Toyoda 1",
-			"th": "Toyoda กล้องถ่ายทอดสด 1",
-			"zh-Hans": "丰田实时摄像头1",
-			"zh-Hant": "豐田實時攝像頭1"
-		},
-		"channel": "UCDoo6BDBM70pQQfmoG640Bg",
-		"keyword": "豊田駅間",
-		"center": [139.3897684, 35.6671238],
-		"zoom": 17,
-		"bearing": -20,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/ccio9lWXT1w?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/ccio9lWXT1w/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDwGrObfzPVtSpiKqvuyVJMXzZTWA"
-	},
-	{
-		"id": "Toyoda-2",
-		"name": {
-			"en": "Toyoda Live Camera 2",
-			"ja": "豊田ライブカメラ2",
-			"ko": "도요다 실시간 웹캠 2",
-			"ne": "Toyoda प्रत्यक्ष क्यामेरा 2",
-			"pt": "Câmera ao vivo Toyoda 2",
-			"th": "Toyoda กล้องถ่ายทอดสด 2",
-			"zh-Hans": "丰田实时摄像头2",
-			"zh-Hant": "豐田實時攝像頭2"
-		},
-		"channel": "UCDoo6BDBM70pQQfmoG640Bg",
-		"keyword": "日野駅間",
-		"center": [139.3892629, 35.6660765],
-		"zoom": 17,
-		"bearing": -135,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/yXgB0rOmLPw?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/yXgB0rOmLPw/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCUYuX9wir5jaTvoGAIMj7ZZHgqmA"
-	},
-	{
-		"id": "Nishi-Hachioji",
-		"name": {
-			"en": "Nishi-Hachioji Live Camera",
-			"ja": "西八王子ライブカメラ",
-			"ko": "니시하치오지 실시간 웹캠",
-			"ne": "Nishi-Hachioji प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Nishi-Hachioji",
-			"th": "Nishi-Hachioji กล้องถ่ายทอดสด",
-			"zh-Hans": "西八王子实时摄像头",
-			"zh-Hant": "西八王子實時攝像頭"
-		},
-		"channel": "UCynDLZ-YJnrMLSQvwYi-bUA",
-		"keyword": "八王子",
-		"center": [139.3157968, 35.6583563],
-		"zoom": 17,
-		"bearing": 70,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/HrNo3i59XYU?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/HrNo3i59XYU/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCZQp8gDoy6zjzwi-TV5atyNUIcXA"
-	},
-	{
-		"id": "Takao",
-		"name": {
-			"en": "Takao Live Camera",
-			"ja": "高尾ライブカメラ",
-			"ko": "다카오 실시간 웹캠",
-			"ne": "Takao प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Takao",
-			"th": "Takao กล้องถ่ายทอดสด",
-			"zh-Hans": "高尾实时摄像头",
-			"zh-Hant": "高尾實時攝像頭"
-		},
-		"channel": "UC3XaMdKWwInRZABct7gKwFA",
-		"keyword": "高尾",
-		"center": [139.2846217, 35.6433691],
-		"zoom": 17,
-		"bearing": -100,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/Ox4BNjLC91g?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/Ox4BNjLC91g/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCiR8rhBlExaxZ20alvTwNblABPWw"
-	},
-	{
-		"id": "Okutama",
-		"name": {
-			"en": "Okutama Live Camera",
-			"ja": "奥多摩ライブカメラ",
-			"ko": "오쿠타마 실시간 웹캠",
-			"ne": "Okutama प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Okutama",
-			"th": "Okutama กล้องถ่ายทอดสด",
-			"zh-Hans": "奥多摩实时摄像头",
-			"zh-Hant": "奧多摩實時攝像頭"
-		},
-		"channel": "UC_eA6kJqCVCL2Yds7--WHgQ",
-		"keyword": "奥多摩駅運行",
-		"center": [139.0969161, 35.809316],
-		"zoom": 17,
-		"bearing": 135,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/JOiF_0H_t5A?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/JOiF_0H_t5A/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCfHB6FFQN3nB3Z5DRpK9adQasjsA"
-	},
-	{
-		"id": "Takaosanguchi",
-		"name": {
-			"en": "Takaosanguchi Live Camera",
-			"ja": "高尾山口ライブカメラ",
-			"ko": "다카오산구치 실시간 웹캠",
-			"ne": "Takaosanguchi प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Takaosanguchi",
-			"th": "Takaosanguchi กล้องถ่ายทอดสด",
-			"zh-Hans": "高尾山口实时摄像头",
-			"zh-Hant": "高尾山口實時攝像頭"
-		},
-		"channel": "UCsyGt_KORXUTXdrmaTYkJPQ",
-		"keyword": "高尾山口",
-		"center": [139.2705083, 35.6334646],
-		"zoom": 17,
-		"bearing": -100,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/7yECE9EX1Bg?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/7yECE9EX1Bg/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDtu0g6fafEbo3My7uwqpSPnMxa1A"
-	},
-	{
-		"id": "Tennocho",
-		"name": {
-			"en": "Tennocho Live Camera",
-			"ja": "天王町ライブカメラ",
-			"ko": "덴노초 실시간 웹캠",
-			"ne": "Tennocho प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Tennocho",
-			"th": "Tennocho กล้องถ่ายทอดสด",
-			"zh-Hans": "天王町实时摄像头",
-			"zh-Hant": "天王町實時攝像頭"
-		},
-		"channel": "UC0F803Kns6UiSdtYd5G1CWw",
-		"keyword": "天王町",
-		"center": [139.5985674, 35.4553583],
-		"zoom": 17,
-		"bearing": -140,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/muQMj2Ow86o?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/muQMj2Ow86o/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAd5yzPvKCl4_Ri9OKz0ngCkjkIeg"
-	},
-	{
-		"id": "Koganecho",
-		"name": {
-			"en": "Koganecho Live Camera",
-			"ja": "黄金町ライブカメラ",
-			"ko": "고가네초 실시간 웹캠",
-			"ne": "Koganecho प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Koganecho",
-			"th": "Koganecho กล้องถ่ายทอดสด",
-			"zh-Hans": "黄金町实时摄像头",
-			"zh-Hant": "黃金町實時攝像頭"
-		},
-		"channel": "UCUWtF4U0L25NthgyZNf9PUg",
-		"keyword": "大岡川",
-		"center": [139.6242287, 35.4404758],
-		"zoom": 17,
-		"bearing": 0,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/39ePPNQxw7o?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/39ePPNQxw7o/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA8PVX7idpErUqPk3wQBh0XoK3YKw"
-	},
-	{
-		"id": "Shichirigahama",
-		"name": {
-			"en": "Shichirigahama Live Camera",
-			"ja": "七里ヶ浜ライブカメラ",
-			"ko": "시치리가하마 실시간 웹캠",
-			"ne": "Shichirigahama प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Shichirigahama",
-			"th": "Shichirigahama กล้องถ่ายทอดสด",
-			"zh-Hans": "七里滨实时摄像头",
-			"zh-Hant": "七里濱實時攝像頭"
-		},
-		"channel": "UC_9dgNP8GvfhUURELouR3Dg",
-		"keyword": "江ノ電",
-		"center": [139.5119387, 35.3048865],
-		"zoom": 17,
-		"bearing": 105,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/OhHLAMyqtrI?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/OhHLAMyqtrI/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAQVDh5LkJEIzCPrmNTLdj0M-PZ4A"
-	},
-	{
-		"id": "Musashi-kosugi",
-		"name": {
-			"en": "Musashi-kosugi Live Camera",
-			"ja": "武蔵小杉ライブカメラ",
-			"ko": "무사시코스기 실시간 웹캠",
-			"ne": "Musashi-kosugi प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Musashi-kosugi",
-			"th": "Musashi-kosugi กล้องถ่ายทอดสด",
-			"zh-Hans": "武藏小杉实时摄像头",
-			"zh-Hant": "武藏小杉實時攝像頭"
-		},
-		"channel": "UC5TrHxKNxfeTdf3Yqc1-l3w",
-		"keyword": "Musako",
-		"center": [139.6632936, 35.5763163],
-		"zoom": 17,
-		"bearing": -170,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/Amm_iePuUYE?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/Amm_iePuUYE/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDvWxHeCcbejie6Knsx6oHpMPNRqA"
-	},
-	{
-		"id": "Futako-tamagawa",
-		"name": {
-			"en": "Futako-tamagawa Live Camera",
-			"ja": "二子玉川ライブカメラ",
-			"ko": "후타코타마가와 실시간 웹캠",
-			"ne": "Futako-tamagawa प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Futako-tamagawa",
-			"th": "Futako-tamagawa กล้องถ่ายทอดสด",
-			"zh-Hans": "二子玉川实时摄像头",
-			"zh-Hant": "二子玉川實時攝像頭"
-		},
-		"channel": "UCPPFGmTUyM4iDIgp2_zJi5g",
-		"keyword": "二子玉川",
-		"center": [139.6248087, 35.6095181],
-		"zoom": 16,
-		"bearing": -100,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/fndY3LREfdE?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/fndY3LREfdE/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLATuSOs9Vqff5GSnE7bJbvJJidmTQ"
-	},
-	{
-		"id": "Hon-Atsugi",
-		"name": {
-			"en": "Hon-Atsugi Live Camera",
-			"ja": "本厚木ライブカメラ",
-			"ko": "혼아쓰기 실시간 웹캠",
-			"ne": "Hon-Atsugi प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Hon-Atsugi",
-			"th": "Hon-Atsugi กล้องถ่ายทอดสด",
-			"zh-Hans": "本厚木实时摄像头",
-			"zh-Hant": "本厚木實時攝像頭"
-		},
-		"channel": "UCg9QtOKSEptfh2IxsqyZ5AA",
-		"keyword": "小田急線",
-		"center": [139.3717856, 35.4418281],
-		"zoom": 17,
-		"bearing": 110,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/4ZHJ7zIRF10?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/4ZHJ7zIRF10/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLApCKKOe-gx6U3KTPpEsSxIIENfDA"
-	},
-	{
-		"id": "Ashigara",
-		"name": {
-			"en": "Ashigara Live Camera",
-			"ja": "足柄ライブカメラ",
-			"ko": "아시가라 실시간 웹캠",
-			"ne": "Ashigara प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Ashigara",
-			"th": "Ashigara กล้องถ่ายทอดสด",
-			"zh-Hans": "足柄实时摄像头",
-			"zh-Hant": "足柄實時攝像頭"
-		},
-		"channel": "UCzniEizcgAfho8X1TigcRlQ",
-		"keyword": "小田急",
-		"center": [139.1550097, 35.2666671],
-		"zoom": 17,
-		"bearing": -75,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/Dg-p3KjoFPM?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/Dg-p3KjoFPM/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBMtCD-N12Xg8iov7cHHr3F5e9ZAw"
-	},
-	{
-		"id": "Ishige",
-		"name": {
-			"en": "Ishige Live Camera",
-			"ja": "石下ライブカメラ",
-			"ko": "이시게 실시간 웹캠",
-			"ne": "Ishige प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo Ishige",
-			"th": "Ishige กล้องถ่ายทอดสด",
-			"zh-Hans": "石下实时摄像头",
-			"zh-Hant": "石下實時攝像頭"
-		},
-		"channel": "UCag8gWmatJmyF6WTZAf6mbw",
-		"keyword": "石下",
-		"center": [139.9740072, 36.1171614],
-		"zoom": 17,
-		"bearing": 100,
-		"pitch": 60,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/2fCtLaU77zM?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/2fCtLaU77zM/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCREcX_eLFJI-g1FSeYNQFKy3h5jQ"
-	},
-	{
-		"id": "Narita-Airport",
-		"name": {
-			"en": "Narita Airport Terminal 1 Live Camera",
-			"ja": "成田空港ライブカメラ",
-			"ko": "나리타 공항 실시간 웹캠",
-			"ne": "Narita Airport Terminal 1 प्रत्यक्ष क्यामेरा",
-			"pt": "Câmera ao vivo do Terminal 1 do Aeroporto Narita",
-			"th": "Narita Airport Terminal 1 กล้องถ่ายทอดสด",
-			"zh-Hans": "成田机场实时摄像头",
-			"zh-Hant": "成田機場實時攝像頭"
-		},
-		"channel": "UCaHr0a1x8zmQ1dxanCeuesA",
-		"keyword": "成田空港",
-		"center": [140.3808439, 35.7622635],
-		"zoom": 16,
-		"bearing": -120,
-		"pitch": 75,
-		"html": "<iframe width=\"100%\" height=\"202\" src=\"https://www.youtube.com/embed/LHIVB_u3NR8?autoplay=1&playsinline=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-		"thumbnail": "https://i.ytimg.com/vi/LHIVB_u3NR8/hqdefault_live.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLD0FRk-tlA_T6mlbWn_wF_gbPeKrA"
+		"org": "朝日新聞",
+		"video": {
+			"platform": "youtube",
+			"id": "6HYjCFkmDPA",
+			"title": "【LIVE】沖縄ライブカメラ　那覇市内の現在の様子　眼下には「ゆいレール」　Okinawa, Naha　 오키나와、 나하",
+			"description": "沖縄県那覇市内の現在の様子を、沖縄県庁近くにある朝日新聞社那覇総局からライブ中継しています。沖縄都市モノレール「ゆいレール」が行き...",
+			"thumbnails": [
+				{
+					"url": "https://i.ytimg.com/vi/6HYjCFkmDPA/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDqXTWwvR8gNEsQgMAIXD6iR8cPNQ",
+					"height": 94,
+					"width": 168
+				},
+				{
+					"url": "https://i.ytimg.com/vi/6HYjCFkmDPA/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDodqHA0myhcC0_9cjnMuW4uhLRwQ",
+					"height": 110,
+					"width": 196
+				},
+				{
+					"url": "https://i.ytimg.com/vi/6HYjCFkmDPA/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLARY-a895qj2AQ-C4NPLrMvEmSgnQ",
+					"height": 138,
+					"width": 246
+				},
+				{
+					"url": "https://i.ytimg.com/vi/6HYjCFkmDPA/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDqDz9QLQpOSajA7bkttkDQtFW1Q",
+					"height": 188,
+					"width": 336
+				}
+			]
+		}
 	}
 ]
