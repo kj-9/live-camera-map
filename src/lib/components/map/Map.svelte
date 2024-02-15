@@ -41,7 +41,7 @@
 				},
 				layers: layers('protomaps', 'light'),
 				center: [139.766, 35.681],
-				zoom: 9
+				zoom: 9.5
 			}
 		});
 
