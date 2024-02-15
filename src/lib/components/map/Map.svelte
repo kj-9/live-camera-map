@@ -14,7 +14,8 @@
 	} from '$lib/maplibreGL';
 
 	import layers from 'protomaps-themes-base';
-	const protomapsURL = `https://api.protomaps.com/tiles/v3/{z}/{x}/{y}.pbf?key=${'23b043bfcb8e65d8'}`;
+	// create .env.local file and add VITE_PROTOMAPS_API_KEY=your_protomaps_api_key
+	const protomapsURL = `https://api.protomaps.com/tiles/v3/{z}/{x}/{y}.pbf?key=${import.meta.env.VITE_PROTOMAPS_API_KEY}`;
 
 	//let container;
 	let map;
