@@ -14,12 +14,19 @@
 </script>
 
 <Map>
-	{#each $data as { position: { center }, name, org, video: { id } }}
-		<MapMarker
-			lon={center[0]}
-			lat={center[1]}
-			content="<h1>{org}: {name}<h1>{getIframe(id, '100%', '200')}"
-		/>
+	{#each $data as { position: { center }, name, org, video: { id }, title }}
+		<MapMarker lon={center[0]} lat={center[1]}>
+			<h1 class="text-lg">{org}: {name}</h1>
+			<iframe
+				title="{org}: {name}"
+				width="560"
+				height="315"
+				src="https://www.youtube.com/embed/{id}?autoplay=1&playsinline=1"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen
+			></iframe>
+		</MapMarker>
 	{/each}
 	<slot />
 </Map>

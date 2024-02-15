@@ -8,8 +8,25 @@
 
 	export let lat;
 	export let lon;
-	export let content;
+	let content: HTMLElement;
 
-	const popup = new Popup({ offset: 25 }).setHTML(content);
-	const marker = new Marker().setLngLat([lon, lat]).setPopup(popup).addTo(map);
+	$: if (content) {
+		const popup = new Popup({ offset: 25 }).setDOMContent(content);
+		new Marker().setLngLat([lon, lat]).setPopup(popup).addTo(map);
+	}
 </script>
+
+<div bind:this={content}>
+	<slot />
+</div>
+
+<style>
+	/* override maplibre-gl's style sheet */
+
+	:global(.maplibregl-popup-content) {
+		width: fit-content;
+	}
+	:global(.maplibregl-popup-close-button) {
+		font-size: 15px;
+	}
+</style>
