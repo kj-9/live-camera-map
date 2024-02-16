@@ -1,15 +1,15 @@
 <script lang="ts">
-	import { getContext, createEventDispatcher } from 'svelte';
+	import { createEventDispatcher } from 'svelte';
 
 	import { createTable, Render, Subscribe } from 'svelte-headless-table';
 	import { addTableFilter } from 'svelte-headless-table/plugins';
 
 	import * as Table from '$lib/components/ui/table';
 	import { Input } from '$lib/components/ui/input';
-	import { contextKey as mapKey } from '$lib/components/map/Map.svelte';
-	import { contextKey as dataKey } from '$lib/components/DataProvider.svelte';
+	import { getMap } from '$lib/components/map/Map.svelte';
+	import { getData } from '$lib/components/DataProvider.svelte';
 
-	const data = getContext(dataKey);
+	const data = getData();
 
 	// create table from data
 	const table = createTable(data, {
@@ -35,14 +35,13 @@
 	const { filterValue } = pluginStates.filter;
 
 	// use map context to fly to marker
-	const { getMap } = getContext(mapKey);
 	const map = getMap();
 
 	// dispatch custom event when fly
 	const dispatch = createEventDispatcher();
 
 	function flyTo({ center, bearing }) {
-		map.flyTo({
+		$map.flyTo({
 			speed: 1,
 			curve: 1,
 			easing(t) {

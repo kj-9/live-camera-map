@@ -1,5 +1,10 @@
 <script lang="ts" context="module">
-	export const contextKey = 'DATA';
+	import { getContext } from 'svelte';
+	const contextKey = 'DATA';
+	export const getData = () => {
+		const data = getContext(contextKey);
+		return data;
+	};
 </script>
 
 <script>
@@ -8,7 +13,8 @@
 
 	import data from '../../data/livecams.json';
 
-	setContext(contextKey, readable(data));
+	const _data = readable(data);
+	setContext(contextKey, _data);
 </script>
 
 <slot />

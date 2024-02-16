@@ -1,5 +1,11 @@
 <script context="module" lang="ts">
-	export const contextKey = 'MAP';
+	import { getContext } from 'svelte';
+	const contextKey = 'MAP';
+
+	export const getMap = () => {
+		const map = getContext(contextKey);
+		return map;
+	};
 </script>
 
 <script lang="ts">
@@ -14,20 +20,19 @@
 	} from '$lib/maplibreGL';
 
 	import layers from 'protomaps-themes-base';
+	import { writable } from 'svelte/store';
 	// create .env.local file and add VITE_PROTOMAPS_API_KEY=your_protomaps_api_key
 	const protomapsURL = `https://api.protomaps.com/tiles/v3/{z}/{x}/{y}.pbf?key=${import.meta.env.VITE_PROTOMAPS_API_KEY}`;
 
 	//let container;
-	let map;
+	let map = writable(null);
 
-	setContext(contextKey, {
-		getMap: () => map
-	});
+	setContext(contextKey, map);
 
 	let layerStyle: string;
 
-	// get hour in JST
-	const hour = new Date().getHours() + 9;
+	// get hour. this is not always return JST. it depends on browser's timezone.
+	const hour = new Date().getHours();
 	if (hour < 6 || hour >= 18) {
 		layerStyle = 'dark';
 	} else {
@@ -35,7 +40,7 @@
 	}
 
 	function loadMap(container: HTMLDivElement) {
-		map = new Map({
+		$map = new Map({
 			container,
 			maxZoom: 17, // for current protomap api
 			attributionControl: false,
@@ -56,16 +61,16 @@
 			}
 		});
 
-		map.addControl(new AttributionControl({}), 'bottom-left');
+		$map.addControl(new AttributionControl({}), 'bottom-left');
 
-		map.addControl(
+		$map.addControl(
 			new NavigationControl({
 				visualizePitch: true
 			})
 		);
-		map.addControl(new FullscreenControl());
+		$map.addControl(new FullscreenControl());
 		// 現在位置表示
-		map.addControl(
+		$map.addControl(
 			new GeolocateControl({
 				positionOptions: {
 					enableHighAccuracy: false
@@ -78,19 +83,19 @@
 
 		// if devlopment, log bearing
 		if (import.meta.env.MODE === 'development') {
-			map.on('click', function (e) {
-				console.log('dev-mode: bearing', map.getBearing());
+			$map.on('click', function (e) {
+				console.log('dev-mode: bearing', $map.getBearing());
 			});
 		}
 	}
 
 	onDestroy(() => {
-		if (map) map.remove();
+		if ($map) $map.remove();
 	});
 </script>
 
 <div use:loadMap>
-	{#if map}
+	{#if $map}
 		<slot />
 	{/if}
 </div>

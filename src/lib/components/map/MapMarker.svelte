@@ -1,20 +1,18 @@
 <script lang="ts">
-	import { contextKey } from '$lib/components/map/Map.svelte';
+	import { getMap } from '$lib/components/map/Map.svelte';
 	import { Popup, Marker } from '$lib/maplibreGL';
-	import { getContext, onMount } from 'svelte';
+	import { onMount } from 'svelte';
 
-	const { getMap } = getContext(contextKey);
 	const map = getMap();
 
-	export let center
+	export let center;
 	let marker = new Marker();
 	let popup;
 	let content: HTMLElement | undefined;
 
-
 	onMount(() => {
 		try {
-			marker.setLngLat(center).addTo(map);
+			marker.setLngLat(center).addTo($map);
 			popup = new Popup({ offset: 25 }).setDOMContent(content);
 			marker.setPopup(popup);
 		} catch (e) {

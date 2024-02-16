@@ -1,12 +1,10 @@
 <script lang="ts">
-	import { getContext } from 'svelte';
-
-	import { contextKey } from '$lib/components/DataProvider.svelte';
+	import { getData } from '$lib/components/DataProvider.svelte';
 
 	import Map from '$lib/components/map/Map.svelte';
 	import MapMarker from '$lib/components/map/MapMarker.svelte';
 
-	const data = getContext(contextKey);
+	const data = getData();
 </script>
 
 <Map>
