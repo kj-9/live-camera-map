@@ -24,6 +24,16 @@
 		getMap: () => map
 	});
 
+	let layerStyle: string;
+
+	// get hour in JST
+	const hour = new Date().getHours() + 9;
+	if (hour < 6 || hour >= 18) {
+		layerStyle = 'dark';
+	} else {
+		layerStyle = 'light';
+	}
+
 	function loadMap(container: HTMLDivElement) {
 		map = new Map({
 			container,
@@ -40,7 +50,7 @@
 							'<a href="https://protomaps.com">Protomaps</a> © <a href="https://openstreetmap.org">OpenStreetMap</a>'
 					}
 				},
-				layers: layers('protomaps', 'light'),
+				layers: layers('protomaps', layerStyle),
 				center: [139.766, 35.681],
 				zoom: 9.5
 			}
