@@ -19,12 +19,12 @@
 	});
 	const columns = table.createColumns([
 		table.column({
-			accessor: ({ name }) => name.ja,
-			header: 'Name'
+			accessor: 'org',
+			header: 'Organization'
 		}),
 		table.column({
-			accessor: 'keyword',
-			header: 'Keyword'
+			accessor: ({ name }) => name,
+			header: 'Name'
 		})
 	]);
 
@@ -41,9 +41,7 @@
 	// dispatch custom event when fly
 	const dispatch = createEventDispatcher();
 
-	function flyTo(center) {
-		const [lng, lat] = center;
-
+	function flyTo({ center, bearing }) {
 		map.flyTo({
 			speed: 1,
 			curve: 1,
@@ -51,7 +49,9 @@
 				return t;
 			},
 			essential: true,
-			center: [lng, lat],
+			center,
+			pitch: 60, // tilt, 60 is max
+			bearing, // bearing in degrees
 			zoom: 15
 		});
 
@@ -86,7 +86,7 @@
 		<Table.Body {...$tableBodyAttrs}>
 			{#each $pageRows as row (row.id)}
 				<Subscribe rowAttrs={row.attrs()} let:rowAttrs>
-					<Table.Row on:click={() => flyTo(row.original.center)} {...rowAttrs}>
+					<Table.Row on:click={() => flyTo(row.original.position)} {...rowAttrs}>
 						{#each row.cells as cell (cell.id)}
 							<Subscribe attrs={cell.attrs()} let:attrs>
 								<Table.Cell {...attrs}>

@@ -6,7 +6,7 @@
 			"name": "朝日新聞成田支局",
 			"center": [140.38291153786915, 35.76356912623065],
 			"pitch": null,
-			"bearing": null
+			"bearing": -120
 		},
 		"video": {
 			"platform": "youtube",
@@ -31,6 +31,44 @@
 				},
 				{
 					"url": "https://i.ytimg.com/vi/LHIVB_u3NR8/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBgZ2CDkdYLlGu6XqxL8ciPWSHLxg",
+					"height": 188,
+					"width": 336
+				}
+			]
+		}
+	},
+	{
+		"name": "成田空港A滑走路(南側）",
+		"org": "朝日新聞",
+		"position": {
+			"name": "朝日新聞成田支局",
+			"center": [140.38286985060182, 35.76359470842568],
+			"pitch": null,
+			"bearing": -170
+		},
+		"video": {
+			"platform": "youtube",
+			"id": "wb2xVVPA_2o",
+			"title": "【LIVE】成田空港ライブカメラ　A滑走路(南側）＠朝日新聞成田支局  LIVE at Narita International airport",
+			"description": "成田空港Ａ滑走路の南側の様子を朝日新聞社成田支局からライブ中継しています。\n画面左が南方向、画面右が北方向です。\nA滑走路の中央付近（...",
+			"thumbnails": [
+				{
+					"url": "https://i.ytimg.com/vi/wb2xVVPA_2o/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCB-6vTaIAuuFAwX2pgNDKzSmj2Lg",
+					"height": 94,
+					"width": 168
+				},
+				{
+					"url": "https://i.ytimg.com/vi/wb2xVVPA_2o/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDfroxNsQL-7BfcztH56FpOlUqMKQ",
+					"height": 110,
+					"width": 196
+				},
+				{
+					"url": "https://i.ytimg.com/vi/wb2xVVPA_2o/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBWnwDgG0ByknKwGgRlIJeO7Y32mA",
+					"height": 138,
+					"width": 246
+				},
+				{
+					"url": "https://i.ytimg.com/vi/wb2xVVPA_2o/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCfyRa0yEoN-ERG6SIXFJB8AIhzLA",
 					"height": 188,
 					"width": 336
 				}
@@ -335,44 +373,6 @@
 				},
 				{
 					"url": "https://i.ytimg.com/vi/fZ4XElN2McU/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCm-Zt8iKiBd_dwIDurWV5TCs1_AA",
-					"height": 188,
-					"width": 336
-				}
-			]
-		}
-	},
-	{
-		"name": "【LIVE】成田空港ライブカメラ　A滑走路(南側）＠朝日新聞成田支局  LIVE at Narita International airport",
-		"position": {
-			"name": "",
-			"center": [],
-			"pitch": null,
-			"bearing": null
-		},
-		"org": "朝日新聞",
-		"video": {
-			"platform": "youtube",
-			"id": "wb2xVVPA_2o",
-			"title": "【LIVE】成田空港ライブカメラ　A滑走路(南側）＠朝日新聞成田支局  LIVE at Narita International airport",
-			"description": "成田空港Ａ滑走路の南側の様子を朝日新聞社成田支局からライブ中継しています。\n画面左が南方向、画面右が北方向です。\nA滑走路の中央付近（...",
-			"thumbnails": [
-				{
-					"url": "https://i.ytimg.com/vi/wb2xVVPA_2o/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCB-6vTaIAuuFAwX2pgNDKzSmj2Lg",
-					"height": 94,
-					"width": 168
-				},
-				{
-					"url": "https://i.ytimg.com/vi/wb2xVVPA_2o/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDfroxNsQL-7BfcztH56FpOlUqMKQ",
-					"height": 110,
-					"width": 196
-				},
-				{
-					"url": "https://i.ytimg.com/vi/wb2xVVPA_2o/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBWnwDgG0ByknKwGgRlIJeO7Y32mA",
-					"height": 138,
-					"width": 246
-				},
-				{
-					"url": "https://i.ytimg.com/vi/wb2xVVPA_2o/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCfyRa0yEoN-ERG6SIXFJB8AIhzLA",
 					"height": 188,
 					"width": 336
 				}

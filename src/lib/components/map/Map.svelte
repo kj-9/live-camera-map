@@ -37,7 +37,7 @@
 	function loadMap(container: HTMLDivElement) {
 		map = new Map({
 			container,
-			maxZoom: 15.9, // for current protomap api
+			maxZoom: 17, // for current protomap api
 			attributionControl: false,
 			style: {
 				version: 8,
@@ -75,6 +75,13 @@
 				showUserLocation: true
 			})
 		);
+
+		// if devlopment, log bearing
+		if (import.meta.env.MODE === 'development') {
+			map.on('click', function (e) {
+				console.log('dev-mode: bearing', map.getBearing());
+			});
+		}
 	}
 
 	onDestroy(() => {
