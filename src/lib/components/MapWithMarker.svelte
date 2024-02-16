@@ -11,7 +11,7 @@
 
 <Map>
 	{#each $data as { position: { center }, name, org, video: { id } }}
-		<MapMarker lon={center[0]} lat={center[1]}>
+		<MapMarker {center}>
 			<h1 class="text-lg">{org}: {name}</h1>
 			<iframe
 				title="{org}: {name}"

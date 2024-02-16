@@ -6,16 +6,15 @@
 	const { getMap } = getContext(contextKey);
 	const map = getMap();
 
-	export let lat;
-	export let lon;
-
+	export let center
 	let marker = new Marker();
 	let popup;
 	let content: HTMLElement | undefined;
 
+
 	onMount(() => {
 		try {
-			marker.setLngLat([lon, lat]).addTo(map);
+			marker.setLngLat(center).addTo(map);
 			popup = new Popup({ offset: 25 }).setDOMContent(content);
 			marker.setPopup(popup);
 		} catch (e) {
