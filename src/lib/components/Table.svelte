@@ -12,8 +12,6 @@
 
 	export let data;
 
-	console.log(data);
-
 	// create table from data
 	const table = createTable(readable(data), {
 		filter: addTableFilter({

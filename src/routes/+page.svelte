@@ -1,5 +1,4 @@
 <script lang="ts">
-	import DataProvider from '$lib/components/DataProvider.svelte';
 	import MapWithMarker from '$lib/components/MapWithMarker.svelte';
 
 	import * as Drawer from '$lib/components/ui/drawer';
@@ -9,8 +8,6 @@
 
 	/** @type {import('./$types').PageData} */
 	export let data;
-
-	$: console.log(data);
 
 	let drawer;
 	let open = false;
