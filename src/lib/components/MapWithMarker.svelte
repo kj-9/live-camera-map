@@ -39,9 +39,8 @@
 		<Popup bind:open={openPopup} {center}>
 			<h1 class="text-lg">{org}: {name}</h1>
 			<iframe
+				class="aspect-video w-screen md:w-96"
 				title="{org}: {name}"
-				width="560"
-				height="315"
 				src="https://www.youtube.com/embed/{id}?autoplay=1&playsinline=1"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
