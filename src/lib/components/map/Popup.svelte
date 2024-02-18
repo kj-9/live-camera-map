@@ -21,9 +21,6 @@
 
 	$: if (popup && open) {
 		popup.addTo($map);
-		console.log('popup added to map');
-	} else {
-		console.log('popup not added to map');
 	}
 
 	onMount(() => {
