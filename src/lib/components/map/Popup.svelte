@@ -13,6 +13,9 @@
 
 	popup.on('close', () => {
 		open = false;
+
+		// reset pitch and bearing
+		$map.easeTo({ pitch: 0, bearing: 0 });
 	});
 
 	popup.on('open', () => {
