@@ -1,37 +1,13 @@
 <script lang="ts">
-	import { getData } from '$lib/components/DataProvider.svelte';
 	import iconURL from '../../asset/icons8-wall-mount-camera-96.png';
 
 	import Map from '$lib/components/map/Map.svelte';
 	import MarkerLayer from '$lib/components/map/MarkerLayer.svelte';
 	import Popup from '$lib/components/map/Popup.svelte';
 
-	const data = getData();
+	export let geoJson;
 
-	// GeoJSONオブジェクトの初期化
-	const geoJson = {
-		type: 'FeatureCollection',
-		features: []
-	};
-
-	// 提供されたデータをGeoJSON形式に変換する
-	$data.forEach((item) => {
-		const feature = {
-			type: 'Feature',
-			properties: {
-				name: item.name,
-				org: item.org,
-				id: item.video.id
-			},
-			geometry: {
-				type: 'Point',
-				coordinates: item.position.center
-			}
-		};
-		geoJson.features.push(feature);
-	});
-
-	let openPopup = false;
+	let openPopup: boolean = false;
 	let propPopup = undefined;
 
 	const onClick = (e) => {
@@ -57,7 +33,7 @@
 </script>
 
 <Map>
-	<MarkerLayer geojson={geoJson} {iconURL} {onClick} />
+	<MarkerLayer {geoJson} {iconURL} {onClick} />
 	{#if openPopup}
 		<Popup bind:open={openPopup} center={propPopup.center}>
 			<h1 class="text-lg">{propPopup.org}: {propPopup.name}</h1>

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { getMap } from '$lib/components/map/Map.svelte';
 
-	export let geojson;
+	export let geoJson;
 	export let source: string = 'place';
 	export let layer: string = 'place';
 	export let iconURL: string;
@@ -22,7 +22,7 @@
 		// Add a GeoJSON source
 		$map.addSource(source, {
 			type: 'geojson',
-			data: geojson
+			data: geoJson
 		});
 
 		// Add a layer showing thesource

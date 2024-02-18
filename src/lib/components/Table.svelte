@@ -7,23 +7,26 @@
 	import * as Table from '$lib/components/ui/table';
 	import { Input } from '$lib/components/ui/input';
 	import { getMap } from '$lib/components/map/Map.svelte';
-	import { getData } from '$lib/components/DataProvider.svelte';
 
-	const data = getData();
+	import { readable } from 'svelte/store';
+
+	export let data;
+
+	console.log(data);
 
 	// create table from data
-	const table = createTable(data, {
+	const table = createTable(readable(data), {
 		filter: addTableFilter({
 			fn: ({ filterValue, value }) => value.toLowerCase().includes(filterValue.toLowerCase())
 		})
 	});
 	const columns = table.createColumns([
 		table.column({
-			accessor: 'org',
+			accessor: (item) => item.properties.org,
 			header: 'Organization'
 		}),
 		table.column({
-			accessor: ({ name }) => name,
+			accessor: (item) => item.properties.name,
 			header: 'Name'
 		})
 	]);
@@ -40,7 +43,7 @@
 	// dispatch custom event when fly
 	const dispatch = createEventDispatcher();
 
-	function flyTo({ center, bearing }) {
+	function flyTo({ geometry: { coordinates }, properties: { bearing } }) {
 		$map.flyTo({
 			speed: 1,
 			curve: 1,
@@ -48,13 +51,13 @@
 				return t;
 			},
 			essential: true,
-			center,
+			center: coordinates,
 			pitch: 60, // tilt, 60 is max
 			bearing, // bearing in degrees
 			zoom: 15
 		});
 
-		dispatch('fly', { center });
+		dispatch('fly', { center: coordinates });
 	}
 
 	// params for ui
@@ -85,7 +88,7 @@
 		<Table.Body {...$tableBodyAttrs}>
 			{#each $pageRows as row (row.id)}
 				<Subscribe rowAttrs={row.attrs()} let:rowAttrs>
-					<Table.Row on:click={() => flyTo(row.original.position)} {...rowAttrs}>
+					<Table.Row on:click={() => flyTo(row.original)} {...rowAttrs}>
 						{#each row.cells as cell (cell.id)}
 							<Subscribe attrs={cell.attrs()} let:attrs>
 								<Table.Cell {...attrs}>
