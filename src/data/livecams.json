@@ -1,6 +1,6 @@
 [
 	{
-		"name": "成田空港A滑走路",
+		"name": "成田空港A滑走路(中央)",
 		"org": "朝日新聞",
 		"position": {
 			"name": "朝日新聞成田支局",
@@ -76,12 +76,12 @@
 		}
 	},
 	{
-		"name": "【LIVE】福岡・博多駅前ライブカメラ　Hakata station in Fukuoka, Kyushu 하카타 역 라이브",
+		"name": "福岡・博多駅前",
 		"position": {
-			"name": "",
-			"center": [],
+			"name": "朝日新聞社福岡本部",
+			"center": [130.4182713346434, 33.59074017441747],
 			"pitch": null,
-			"bearing": null
+			"bearing": 153
 		},
 		"org": "朝日新聞",
 		"video": {
