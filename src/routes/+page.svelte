@@ -33,10 +33,9 @@
 		if (openPopup) {
 			openPopup = false;
 		} else {
-			// set timeout FLY_DURATION to wait for the map to finish flying
-			setTimeout(() => {
+			$map.once('moveend', () => {
 				openPopup = true;
-			}, FLY_DURATION);
+			});
 		}
 	};
 
@@ -52,10 +51,9 @@
 		if (openPopup) {
 			openPopup = false;
 		} else {
-			// set timeout FLY_DURATION to wait for the map to finish flying
-			setTimeout(() => {
+			$map.once('moveend', () => {
 				openPopup = true;
-			}, FLY_DURATION);
+			});
 		}
 	};
 
@@ -65,7 +63,7 @@
 		// fly to selected marker
 		if (feature && $map) {
 			$map.flyTo({
-				duration: FLY_DURATION,
+				speed: 1,
 				essential: true,
 				center: feature.geometry.coordinates,
 				pitch: 60, // tilt, 60 is max
