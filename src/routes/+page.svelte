@@ -18,6 +18,8 @@
 	let openPopup: boolean = false;
 	let openDrawer = false;
 
+	const FLY_DURATION = 3000;
+
 	const onClickMarker = (e) => {
 		const feature = e.features[0];
 
@@ -27,33 +29,51 @@
 				properties: feature.properties
 			}
 		});
-		openPopup = !openPopup;
+
+		if (openPopup) {
+			openPopup = false;
+		} else {
+			// set timeout FLY_DURATION to wait for the map to finish flying
+			setTimeout(() => {
+				openPopup = true;
+			}, FLY_DURATION);
+		}
+	};
+
+	const onClickRow = (feature) => {
+		openDrawer = false;
+		pushState('', {
+			selected: {
+				geometry: feature.geometry,
+				properties: feature.properties
+			}
+		});
+
+		if (openPopup) {
+			openPopup = false;
+		} else {
+			// set timeout FLY_DURATION to wait for the map to finish flying
+			setTimeout(() => {
+				openPopup = true;
+			}, FLY_DURATION);
+		}
 	};
 
 	$: {
-		console.log('$page.state', $page.state);
 		const feature = $page.state.selected;
 
 		// fly to selected marker
 		if (feature && $map) {
-			//open = false;
-			/*
 			$map.flyTo({
-				speed: 1,
-				curve: 1,
-				easing(t) {
-					return t;
-				},
+				duration: FLY_DURATION,
 				essential: true,
 				center: feature.geometry.coordinates,
 				pitch: 60, // tilt, 60 is max
 				bearing: feature.properties.bearing, // bearing in degrees
 				zoom: 15
 			});
-			*/
 		}
 	}
-	$: console.log(openDrawer);
 </script>
 
 <svelte:head>
@@ -87,7 +107,7 @@
 			</Button>
 		</Drawer.Trigger>
 		<Drawer.Content class="px-4">
-			<Table data={data.features} onClickRow={() => (openDrawer = false)} />
+			<Table data={data.features} {onClickRow} />
 		</Drawer.Content>
 	</Drawer.Root>
 </Map>

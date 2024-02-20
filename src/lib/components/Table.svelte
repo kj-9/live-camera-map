@@ -6,7 +6,6 @@
 	import { Input } from '$lib/components/ui/input';
 
 	import { readable } from 'svelte/store';
-	import { pushState } from '$app/navigation';
 
 	export let data;
 	export let onClickRow;
@@ -33,17 +32,6 @@
 
 	// for filtering table rows
 	const { filterValue } = pluginStates.filter;
-
-	function featureToSetState(feature) {
-		return () => {
-			pushState('', {
-				selected: {
-					geometry: feature.geometry,
-					properties: feature.properties
-				}
-			});
-		};
-	}
 
 	// params for ui
 	let height = '60dvh';
@@ -73,7 +61,7 @@
 		<Table.Body {...$tableBodyAttrs}>
 			{#each $pageRows as row (row.id)}
 				<Subscribe rowAttrs={row.attrs()} let:rowAttrs>
-					<Table.Row on:click={featureToSetState(row.original)} on:click={onClickRow} {...rowAttrs}>
+					<Table.Row on:click={() => onClickRow(row.original)} {...rowAttrs}>
 						{#each row.cells as cell (cell.id)}
 							<Subscribe attrs={cell.attrs()} let:attrs>
 								<Table.Cell {...attrs}>
