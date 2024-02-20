@@ -458,10 +458,10 @@
 	{
 		"name": "【LIVE】千葉県ライブカメラ　千葉市内の現在の様子　Chiba 지바",
 		"position": {
-			"name": "",
-			"center": [],
+			"name": "朝日新聞千葉総局",
+			"center": [140.1191071005023, 35.60798491960713],
 			"pitch": null,
-			"bearing": null
+			"bearing": -84
 		},
 		"org": "朝日新聞",
 		"video": {
