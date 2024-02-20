@@ -75,8 +75,8 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Live Camera Map</title>
+	<meta name="description" content="live camera map" />
 </svelte:head>
 
 <Map>
