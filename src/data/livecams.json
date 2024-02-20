@@ -114,6 +114,44 @@
 		}
 	},
 	{
+		"name": "JR京葉線 海浜幕張駅 周辺",
+		"position": {
+			"name": "UQ生活",
+			"center": [140.03959401862787, 35.648786819699275],
+			"pitch": null,
+			"bearing": 88
+		},
+		"org": "UQ生活",
+		"video": {
+			"platform": "youtube",
+			"id": "gZh1dk1ljGY",
+			"title": "【LIVE】JR京葉線 海浜幕張駅 周辺 ライブカメラ / Kaihinmakuhari station Live Camera",
+			"description": "湯たんぽレビュー！猫好き必見！第１回 THREE UP(スリーアップ)nuku2シリーズ\nhttps://youtu.be/uR7GJqsKP8s?si=kmY_KfRgqUVnIfvZ\n\nUQ生活ナビゲーターの水澤あゆむ...",
+			"thumbnails": [
+				{
+					"url": "https://i.ytimg.com/vi/gZh1dk1ljGY/hqdefault_live.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAuG92cUZMIEQBnk1K92zDQtciQSA",
+					"height": 94,
+					"width": 168
+				},
+				{
+					"url": "https://i.ytimg.com/vi/gZh1dk1ljGY/hqdefault_live.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLClBZqdG3qJrEZ4pGTCtELw1kyQ5w",
+					"height": 110,
+					"width": 196
+				},
+				{
+					"url": "https://i.ytimg.com/vi/gZh1dk1ljGY/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBVz8saR0BCKVzpAAUx9QQtHV2Ew",
+					"height": 138,
+					"width": 246
+				},
+				{
+					"url": "https://i.ytimg.com/vi/gZh1dk1ljGY/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC60zHzn_ixDxyDIbEQp_oN1RIeMw",
+					"height": 188,
+					"width": 336
+				}
+			]
+		}
+	},
+	{
 		"name": "【LIVE】大阪国際空港（伊丹空港）ライブカメラ　＠朝日新聞社格納庫",
 		"position": {
 			"name": "",
