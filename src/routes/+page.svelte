@@ -27,6 +27,7 @@
 				properties: feature.properties
 			}
 		});
+		openPopup = !openPopup;
 	};
 
 	$: {
@@ -35,9 +36,7 @@
 
 		// fly to selected marker
 		if (feature && $map) {
-			openPopup = !openPopup;
 			//open = false;
-
 			/*
 			$map.flyTo({
 				speed: 1,
@@ -63,7 +62,7 @@
 
 <Map>
 	<MarkerLayer geoJson={data} {iconURL} onClick={onClickMarker} />
-	{#if $page.state.selected}
+	{#if openPopup && $page.state.selected}
 		{@const {
 			properties: { id, name, org },
 			geometry: { coordinates }

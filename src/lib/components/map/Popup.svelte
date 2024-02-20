@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { getMap } from '$lib/components/map/Map.svelte';
 	import { Popup } from '$lib/maplibreGL';
-	import { onMount } from 'svelte';
+	import { onDestroy, onMount } from 'svelte';
 
 	const map = getMap();
 
@@ -33,6 +33,10 @@
 		// if successfully binded, content is no longer needed. so asign it to undefined to remove it from the DOM
 		// Or it will be remain in the DOM
 		content = undefined;
+	});
+
+	onDestroy(() => {
+		popup.remove();
 	});
 </script>
 
