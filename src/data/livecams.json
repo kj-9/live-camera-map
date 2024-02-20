@@ -494,12 +494,12 @@
 		}
 	},
 	{
-		"name": "【LIVE】銀座ライブカメラ　数寄屋橋スクランブル交差点 Sukiyabashi crossing in Ginza, Tokyo 스키야바시 긴자",
+		"name": "銀座 数寄屋橋スクランブル交差点",
 		"position": {
-			"name": "",
-			"center": [],
+			"name": "有楽町マリオン",
+			"center": [139.76286304635946, 35.67358274309638],
 			"pitch": null,
-			"bearing": null
+			"bearing": 157
 		},
 		"org": "朝日新聞",
 		"video": {
