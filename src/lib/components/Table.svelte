@@ -9,6 +9,7 @@
 	import { pushState } from '$app/navigation';
 
 	export let data;
+	export let onClickRow;
 
 	// create table from data
 	const table = createTable(readable(data), {
@@ -72,7 +73,7 @@
 		<Table.Body {...$tableBodyAttrs}>
 			{#each $pageRows as row (row.id)}
 				<Subscribe rowAttrs={row.attrs()} let:rowAttrs>
-					<Table.Row on:click={featureToSetState(row.original)} {...rowAttrs}>
+					<Table.Row on:click={featureToSetState(row.original)} on:click={onClickRow} {...rowAttrs}>
 						{#each row.cells as cell (cell.id)}
 							<Subscribe attrs={cell.attrs()} let:attrs>
 								<Table.Cell {...attrs}>

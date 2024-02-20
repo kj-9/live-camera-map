@@ -16,7 +16,7 @@
 	export let data;
 
 	let openPopup: boolean = false;
-	let open = false;
+	let openDrawer = false;
 
 	const onClickMarker = (e) => {
 		const feature = e.features[0];
@@ -53,6 +53,7 @@
 			*/
 		}
 	}
+	$: console.log(openDrawer);
 </script>
 
 <svelte:head>
@@ -79,14 +80,14 @@
 			></iframe>
 		</Popup>
 	{/if}
-	<Drawer.Root bind:open>
+	<Drawer.Root bind:open={openDrawer}>
 		<Drawer.Trigger class="absolute bottom-5 right-5 z-10">
 			<Button>
 				<Search class="mr-2 h-4 w-4" size="20" />Search
 			</Button>
 		</Drawer.Trigger>
 		<Drawer.Content class="px-4">
-			<Table data={data.features} />
+			<Table data={data.features} onClickRow={() => (openDrawer = false)} />
 		</Drawer.Content>
 	</Drawer.Root>
 </Map>
