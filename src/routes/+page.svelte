@@ -1,21 +1,58 @@
 <script lang="ts">
-	import MapWithMarker from '$lib/components/MapWithMarker.svelte';
-
 	import * as Drawer from '$lib/components/ui/drawer';
 	import Table from '$lib/components/Table.svelte';
 	import { Button } from '$lib/components/ui/button';
 	import { Search } from 'lucide-svelte';
 
+	import { map } from '$lib/components/map/Map.svelte';
+	import iconURL from '../asset/icons8-wall-mount-camera-96.png';
+	import Map from '$lib/components/map/Map.svelte';
+	import MarkerLayer from '$lib/components/map/MarkerLayer.svelte';
+	import Popup from '$lib/components/map/Popup.svelte';
+	import { page } from '$app/stores';
+	import { pushState } from '$app/navigation';
+
 	/** @type {import('./$types').PageData} */
 	export let data;
 
-	let drawer;
+	let openPopup: boolean = false;
 	let open = false;
 
-	function onFly(event) {
-		console.log('fly', event.detail);
-		console.log(drawer);
-		open = false;
+	const onClickMarker = (e) => {
+		const feature = e.features[0];
+
+		pushState('', {
+			selected: {
+				geometry: feature.geometry,
+				properties: feature.properties
+			}
+		});
+	};
+
+	$: {
+		console.log('$page.state', $page.state);
+		const feature = $page.state.selected;
+
+		// fly to selected marker
+		if (feature && $map) {
+			openPopup = !openPopup;
+			//open = false;
+
+			/*
+			$map.flyTo({
+				speed: 1,
+				curve: 1,
+				easing(t) {
+					return t;
+				},
+				essential: true,
+				center: feature.geometry.coordinates,
+				pitch: 60, // tilt, 60 is max
+				bearing: feature.properties.bearing, // bearing in degrees
+				zoom: 15
+			});
+			*/
+		}
 	}
 </script>
 
@@ -24,15 +61,33 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<MapWithMarker geoJson={data}>
+<Map>
+	<MarkerLayer geoJson={data} {iconURL} onClick={onClickMarker} />
+	{#if $page.state.selected}
+		{@const {
+			properties: { id, name, org },
+			geometry: { coordinates }
+		} = $page.state.selected}
+		<Popup bind:open={openPopup} center={coordinates}>
+			<h1 class="text-lg">{org}: {name}</h1>
+			<iframe
+				class="aspect-video w-screen md:w-96"
+				title="{org}: {name}"
+				src="https://www.youtube.com/embed/{id}?autoplay=1&playsinline=1"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen
+			></iframe>
+		</Popup>
+	{/if}
 	<Drawer.Root bind:open>
-		<Drawer.Trigger bind:this={drawer} class="absolute bottom-5 right-5 z-10">
+		<Drawer.Trigger class="absolute bottom-5 right-5 z-10">
 			<Button>
 				<Search class="mr-2 h-4 w-4" size="20" />Search
 			</Button>
 		</Drawer.Trigger>
 		<Drawer.Content class="px-4">
-			<Table data={data.features} on:fly={onFly} />
+			<Table data={data.features} />
 		</Drawer.Content>
 	</Drawer.Root>
-</MapWithMarker>
+</Map>

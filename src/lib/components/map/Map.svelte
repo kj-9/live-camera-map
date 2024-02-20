@@ -6,6 +6,8 @@
 		const map = getContext(contextKey);
 		return map;
 	};
+
+	export let map = writable(null);
 </script>
 
 <script lang="ts">
@@ -24,11 +26,7 @@
 	// create .env.local file and add VITE_PROTOMAPS_API_KEY=your_protomaps_api_key
 	const protomapsURL = `https://api.protomaps.com/tiles/v3/{z}/{x}/{y}.pbf?key=${import.meta.env.VITE_PROTOMAPS_API_KEY}`;
 
-	//let container;
-	let map = writable(null);
-
 	setContext(contextKey, map);
-
 	let layerStyle: string;
 
 	// get hour. this is not always return JST. it depends on browser's timezone.

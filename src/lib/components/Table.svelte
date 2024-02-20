@@ -1,14 +1,12 @@
 <script lang="ts">
-	import { createEventDispatcher } from 'svelte';
-
 	import { createTable, Render, Subscribe } from 'svelte-headless-table';
 	import { addTableFilter } from 'svelte-headless-table/plugins';
 
 	import * as Table from '$lib/components/ui/table';
 	import { Input } from '$lib/components/ui/input';
-	import { getMap } from '$lib/components/map/Map.svelte';
 
 	import { readable } from 'svelte/store';
+	import { pushState } from '$app/navigation';
 
 	export let data;
 
@@ -35,27 +33,15 @@
 	// for filtering table rows
 	const { filterValue } = pluginStates.filter;
 
-	// use map context to fly to marker
-	const map = getMap();
-
-	// dispatch custom event when fly
-	const dispatch = createEventDispatcher();
-
-	function flyTo({ geometry: { coordinates }, properties: { bearing } }) {
-		$map.flyTo({
-			speed: 1,
-			curve: 1,
-			easing(t) {
-				return t;
-			},
-			essential: true,
-			center: coordinates,
-			pitch: 60, // tilt, 60 is max
-			bearing, // bearing in degrees
-			zoom: 15
-		});
-
-		dispatch('fly', { center: coordinates });
+	function featureToSetState(feature) {
+		return () => {
+			pushState('', {
+				selected: {
+					geometry: feature.geometry,
+					properties: feature.properties
+				}
+			});
+		};
 	}
 
 	// params for ui
@@ -86,7 +72,7 @@
 		<Table.Body {...$tableBodyAttrs}>
 			{#each $pageRows as row (row.id)}
 				<Subscribe rowAttrs={row.attrs()} let:rowAttrs>
-					<Table.Row on:click={() => flyTo(row.original)} {...rowAttrs}>
+					<Table.Row on:click={featureToSetState(row.original)} {...rowAttrs}>
 						{#each row.cells as cell (cell.id)}
 							<Subscribe attrs={cell.attrs()} let:attrs>
 								<Table.Cell {...attrs}>

@@ -22,14 +22,11 @@
 		open = true;
 	});
 
-	$: if (popup && open) {
-		popup.addTo($map);
-	}
-
 	onMount(() => {
 		try {
 			// bind content to popup
 			popup.setDOMContent(content);
+			popup.addTo($map);
 		} catch (e) {
 			console.error('Failed to create popup', e);
 		}
