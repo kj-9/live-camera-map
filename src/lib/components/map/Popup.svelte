@@ -8,7 +8,7 @@
 	export let center;
 	export let open = true;
 
-	let popup: Popup = new Popup({ offset: 25 }).setLngLat(center);
+	let popup: Popup = new Popup({ offset: 25, anchor: 'top', maxWidth: 'none' }).setLngLat(center);
 	let content: HTMLElement | undefined;
 
 	popup.on('close', () => {

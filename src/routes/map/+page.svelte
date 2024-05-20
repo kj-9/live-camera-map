@@ -89,7 +89,7 @@
 		<Popup bind:open={openPopup} center={coordinates}>
 			<h1 class="text-lg">{org}: {name}</h1>
 			<iframe
-				class="aspect-video w-screen md:w-96"
+				class="aspect-video w-96"
 				title="{org}: {name}"
 				src="https://www.youtube.com/embed/{id}?autoplay=1&playsinline=1"
 				frameborder="0"
