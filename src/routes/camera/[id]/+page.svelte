@@ -2,8 +2,15 @@
 	/** @type {import('./$types').PageData} */
 	export let data;
 
-	console.log(data);
+	const { video, org, name } = data;
 </script>
 
-<h1>{data.name}</h1>
-<div>{@html data.id}</div>
+<h1 class="text-lg">{org}: {name}</h1>
+<iframe
+	class="aspect-video w-screen md:w-96"
+	title="{org}: {name}"
+	src="https://www.youtube.com/embed/{video.id}?autoplay=1&playsinline=1"
+	frameborder="0"
+	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+	allowfullscreen
+></iframe>
