@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import data from '../../../data/livecams.json';
+import data from '../../../../data/livecams.json';
 
 /** @type {import('./$types').PageLoad} */ export function load({ params }) {
 	// get record from data matching id

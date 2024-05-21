@@ -3,10 +3,9 @@
 </script>
 
 <svelte:head>
-	<title>Live Camera Map</title>
-	<meta name="description" content="live camera map" />
+	<title>Open Live Camera</title>
+	<meta name="description" content="Open Live Camera" />
 </svelte:head>
 
-<div>
-	<slot />
-</div>
+	
+<slot />
