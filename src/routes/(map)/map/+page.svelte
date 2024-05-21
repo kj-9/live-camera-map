@@ -2,7 +2,7 @@
 	import * as Drawer from '$lib/components/ui/drawer';
 	import Table from '$lib/components/Table.svelte';
 	import { Button } from '$lib/components/ui/button';
-	import { Search } from 'lucide-svelte';
+	import { Search, Undo2 } from 'lucide-svelte';
 
 	import { map } from '$lib/components/map/Map.svelte';
 	import iconURL from '$lib/asset/icons8-wall-mount-camera-96.png';
@@ -11,6 +11,7 @@
 	import Popup from '$lib/components/map/Popup.svelte';
 	import { page } from '$app/stores';
 	import { pushState } from '$app/navigation';
+	import { Menubar } from 'bits-ui';
 
 	/** @type {import('./$types').PageData} */
 	export let data;
@@ -108,4 +109,5 @@
 			<Table data={data.features} {onClickRow} />
 		</Drawer.Content>
 	</Drawer.Root>
+	aaa
 </Map>

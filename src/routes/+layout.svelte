@@ -7,5 +7,4 @@
 	<meta name="description" content="Open Live Camera" />
 </svelte:head>
 
-	
 <slot />

@@ -4,5 +4,4 @@
 	export let data;
 </script>
 
-
 <Table data={data.features} />
